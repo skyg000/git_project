@@ -1,0 +1,98 @@
+@import "rest.css";
+header {
+  width: 100%;
+}
+
+.head {
+  width: 1700px;
+  margin: 0 auto;
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 50px 0;
+}
+.logo a img {
+  width: 60px;
+  height: 60px;
+}
+
+.menu {
+  flex-grow: 1;
+  margin-left: 50px;
+  padding-right: 10px;
+}
+.menu a {
+  font-weight: bold;
+  padding-right: 20px;
+  color: black;
+}
+
+.icon {
+  display: flex;
+  justify-content: end;
+}
+.icon a {
+  color: black;
+  padding-right: 20px;
+}
+.video {
+  margin: 0 100px;
+}
+.a-about {
+  margin: 0 100px;
+}
+.a-about h4 {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+.a-about img {
+  width: 14px;
+}
+
+.a-btn {
+  margin: 70px 100px;
+  padding: 20px 20px;
+  width: 260px;
+  border: 1px solid black;
+}
+.a-btn p {
+  font-weight: bold;
+}
+.a-btn p a i {
+  padding-left: 100px;
+}
+
+.feed {
+  width: 100%;
+  height: 100vh;
+  background-color: #e5e7eb;
+  margin: 200px auto;
+}
+.feed h4 {
+  margin: 0 100px;
+  padding: 100px 0 50px;
+  font-size: 32px;
+}
+.feed h4 img {
+  width: 14px;
+}
+.feed ul {
+  width: 1740px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 70px;
+  padding: 20px;
+}
+.feed ul li a img {
+  flex-grow: 1;
+  padding: 3px 0;
+  width: 420px;
+  height: 370px;
+}/*# sourceMappingURL=index.css.map */
