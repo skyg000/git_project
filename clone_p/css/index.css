@@ -1,4 +1,6 @@
 @import "rest.css";
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@100;200;300;400;500&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600&family=Oswald:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 header {
   width: 100%;
   position: sticky;
@@ -26,15 +28,16 @@ header {
 .menu {
   flex-grow: 1;
   margin-left: 50px;
-  padding-right: 10px;
+  padding-right: 10px; 
 }
 .menu a {
-  font-weight: bold;
+  font-weight: 600;
   padding-right: 20px;
   color: black;
   text-decoration: none;
+  
 }
-
+.menu a:hover {opacity: 0.4;}
 .icon {
   display: flex;
   justify-content: end;
@@ -50,14 +53,12 @@ header {
   height: 15px;
 }
 
-.icon:hover > a {
+.icon a i:hover{
   color: gray;
 }
-
-.icon:hover a > img {
+.icon a img:hover{
   color: gray;
 }
-
 /* ===============================main========================================= */
 .video {
   margin: 0 100px;
@@ -69,9 +70,12 @@ header {
   font-size: 30px;
   margin-bottom: 16px;
 }
-.a-about img {
+.a-about h4 img {
   margin-top: 7px;
   width: 14px;
+}
+.a-about p {
+  opacity: 0.4;
 }
 
 .a-btn {
@@ -130,6 +134,9 @@ header {
 .a-artist h4 {
   font-size: 32px;
   margin-bottom: 16px;
+}
+.a-artist p {
+  opacity: 0.4;
 }
 .a-artist img {
   margin-top: 7px;
