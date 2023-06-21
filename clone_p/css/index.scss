@@ -2,6 +2,10 @@
 
 header{
     width: 100%;
+    position: sticky;
+    top:0;
+    background-color: white;
+    
 }
 .head{
     width: 1700px;
@@ -12,7 +16,7 @@ header{
     align-items: center;
 }
 .logo{
-    padding: 50px 0;
+    padding: 40px 0;
     a{
         img{
             width: 60px; height: 60px;
@@ -27,20 +31,31 @@ header{
         font-weight: bold;
         padding-right: 20px;
         color: black;
+        text-decoration: none;
     }
 }
 .icon{
     display: flex;
     justify-content: end;
+    height: 30px;
     a{
         color: black;
         padding-right: 20px;
-        i{}
+        i{ 
+        }
         img{
-            width: 14px; height: 16px;
+            margin-top: 4px;
+            width: 14px; height: 15px;
         }
     }
 }
+.icon:hover > a{
+    color: gray;
+}
+.icon:hover a > img{
+    color: gray;
+}
+/* ===============================main========================================= */
 main{}
 .video{
     margin: 0 100px;
@@ -53,6 +68,7 @@ main{}
         margin-bottom: 16px;
     }
     img{
+        margin-top: 7px;
         width: 14px;
     }
 }
@@ -70,15 +86,21 @@ main{}
         }
     }
 }
+.a-btn:hover{
+    transition: 1s ;
+    background-color: #fde700;
+}
+
 .feed{
-    width: 100%; height: 100vh;
-    background-color: #e5e7eb;
-    margin: 200px auto;
+    width: 100%; height: 110vh;
+    background-color: #fafafa;
+    margin: 220px auto;
     h4{
-        margin: 0 100px;
+        margin: 0 110px;
         padding: 100px 0 50px;
         font-size: 32px;
         img{
+            margin-top: 7px;
             width: 14px;
         }
     }
@@ -89,7 +111,7 @@ main{}
         justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-left: 70px;
+        margin-left: 90px;
         padding: 20px;
         li{ 
             a{
@@ -101,5 +123,135 @@ main{}
                 }
             }
         }
+    }
+}
+.a-artist{
+    margin: 0 100px;
+    
+    h4{
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    img{
+        margin-top: 7px;
+        width: 14px;
+    }
+}
+.a-btn1{
+    margin: 70px 100px;
+    padding: 20px 20px;
+    width: 260px;
+    border: 1px solid black;
+    p{
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        
+        a{
+            i{
+                padding-right: 10px;
+            }
+        }
+    }
+}
+.a-btn1:hover{
+    transition: 1s ;
+    background-color: #fde700;
+}
+.artist{
+    ul{
+        width: 1740px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-left: 80px;
+        li{
+            a{
+                img{
+                    width: 406px; height: 406px;
+                    padding: 0 10px; 
+                }
+            }
+        }
+    }
+}
+/* ==========================================footer============================ */
+.foot{
+    width: 100%; height: 100%;
+    background-color: #fafafa;
+    margin-top: 120px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px 0px ;
+    
+}
+.logo2{
+
+    a{
+        img{
+            width: 200px; height: 33px;
+        }
+    }
+}
+.add{   
+        display: flex;
+        flex-direction: column;
+        justify-content:start ;
+        margin-right: 500px;
+    h6{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    a{
+        text-decoration: none;
+        i{color:#bdbec0}
+        span{}
+    }
+}
+.btn2{
+    margin: 30px 0;
+    padding: 20px 15px;
+    width: 260px;
+    border: 1px solid #bdbec0;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    p{
+        font-size: 14px;
+        a{
+            
+            i{
+                padding-left: 90px;
+            }
+        }
+    }
+}
+.btn2:hover{
+    transition: 1s ;
+    background-color: #fde700;
+}
+.back{
+    display: flex;
+    justify-content: end;
+    a{
+        font-weight: bold;
+        text-decoration: none;
+        b{
+            font-size: 16px;
+            text-decoration: none; 
+            color: rgba(54, 54, 54, 0.65);
+            
+            i{   }
+        }
+    }
+}
+.last{
+    width: 100%; height: 100px;
+    padding: 20px 80px;
+    background-color: #fafafa;
+    h6{
+        font-size: 16px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 30px;
     }
 }

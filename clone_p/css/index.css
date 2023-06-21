@@ -1,6 +1,9 @@
 @import "rest.css";
 header {
   width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .head {
@@ -13,7 +16,7 @@ header {
 }
 
 .logo {
-  padding: 50px 0;
+  padding: 40px 0;
 }
 .logo a img {
   width: 60px;
@@ -29,21 +32,33 @@ header {
   font-weight: bold;
   padding-right: 20px;
   color: black;
+  text-decoration: none;
 }
 
 .icon {
   display: flex;
   justify-content: end;
+  height: 30px;
 }
 .icon a {
   color: black;
   padding-right: 20px;
 }
 .icon a img {
+  margin-top: 4px;
   width: 14px;
-  height: 16px;
+  height: 15px;
 }
 
+.icon:hover > a {
+  color: gray;
+}
+
+.icon:hover a > img {
+  color: gray;
+}
+
+/* ===============================main========================================= */
 .video {
   margin: 0 100px;
 }
@@ -55,6 +70,7 @@ header {
   margin-bottom: 16px;
 }
 .a-about img {
+  margin-top: 7px;
   width: 14px;
 }
 
@@ -71,18 +87,24 @@ header {
   padding-left: 100px;
 }
 
+.a-btn:hover {
+  transition: 1s;
+  background-color: #fde700;
+}
+
 .feed {
   width: 100%;
-  height: 100vh;
-  background-color: #e5e7eb;
-  margin: 200px auto;
+  height: 110vh;
+  background-color: #fafafa;
+  margin: 220px auto;
 }
 .feed h4 {
-  margin: 0 100px;
+  margin: 0 110px;
   padding: 100px 0 50px;
   font-size: 32px;
 }
 .feed h4 img {
+  margin-top: 7px;
   width: 14px;
 }
 .feed ul {
@@ -92,7 +114,7 @@ header {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 70px;
+  margin-left: 90px;
   padding: 20px;
 }
 .feed ul li a img {
@@ -100,4 +122,127 @@ header {
   padding: 3px 0;
   width: 420px;
   height: 370px;
+}
+
+.a-artist {
+  margin: 0 100px;
+}
+.a-artist h4 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.a-artist img {
+  margin-top: 7px;
+  width: 14px;
+}
+
+.a-btn1 {
+  margin: 70px 100px;
+  padding: 20px 20px;
+  width: 260px;
+  border: 1px solid black;
+}
+.a-btn1 p {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.a-btn1 p a i {
+  padding-right: 10px;
+}
+
+.a-btn1:hover {
+  transition: 1s;
+  background-color: #fde700;
+}
+
+.artist ul {
+  width: 1740px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 80px;
+}
+.artist ul li a img {
+  width: 406px;
+  height: 406px;
+  padding: 0 10px;
+}
+
+/* ==========================================footer============================ */
+.foot {
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 90px 0px;
+}
+
+.logo2 a img {
+  width: 200px;
+  height: 33px;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-right: 500px;
+}
+.add h6 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.add a {
+  text-decoration: none;
+}
+.add a i {
+  color: #bdbec0;
+}
+.btn2 {
+  margin: 30px 0;
+  padding: 20px 15px;
+  width: 260px;
+  border: 1px solid #bdbec0;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+}
+.btn2 p {
+  font-size: 14px;
+}
+.btn2 p a i {
+  padding-left: 90px;
+}
+
+.btn2:hover {
+  transition: 1s;
+  background-color: #fde700;
+}
+
+.back {
+  display: flex;
+  justify-content: end;
+}
+.back a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.back a b {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(54, 54, 54, 0.65);
+}
+.last {
+  width: 100%;
+  height: 100px;
+  padding: 20px 80px;
+  background-color: #fafafa;
+}
+.last h6 {
+  font-size: 16px;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 30px;
 }/*# sourceMappingURL=index.css.map */
