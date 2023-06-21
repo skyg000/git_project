@@ -1,0 +1,296 @@
+@import "rest.css";
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.head {
+  width: 1700px;
+  margin: 0 auto;
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 40px 0;
+}
+.logo a img {
+  width: 60px;
+  height: 60px;
+}
+
+.menu {
+  flex-grow: 1;
+  margin-left: 60px;
+  padding-right: 10px;
+}
+.menu a {
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #bdbec0;
+}
+
+.icon {
+  display: flex;
+  justify-content: end;
+  height: 30px;
+}
+.icon a {
+  color: black;
+  padding-right: 20px;
+}
+.icon a img {
+  margin-top: 4px;
+  width: 14px;
+  height: 15px;
+}
+
+.icon a:hover {
+  color: gray;
+}
+
+.icon a img:hover {
+  background-color: gray;
+}
+
+/* ===============================main========================================= */
+.video {
+  margin: 0 100px;
+}
+.a-about {
+  margin: 0 100px;
+}
+.a-about h4 {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+.a-about h4 img {
+  margin-top: 7px;
+  width: 14px;
+}
+.a-about p {
+  opacity: 0.4;
+}
+
+.a-btn {
+  margin: 70px 100px;
+  padding: 20px 20px;
+  width: 260px;
+  border: 1px solid black;
+}
+.a-btn p {
+  font-weight: bold;
+}
+.a-btn p a i {
+  padding-left: 100px;
+}
+
+.a-btn:hover {
+  transition: 1s;
+  background-color: #fde700;
+}
+
+.feed {
+  width: 100%;
+  height: 100vh;
+  background-color: #fafafa;
+  margin: 100px auto;
+}
+.feed h4 {
+  margin: 0 110px;
+  padding: 100px 0 50px;
+  font-size: 32px;
+}
+.feed h4 img {
+  margin-top: 7px;
+  width: 14px;
+}
+.feed ul {
+  width: 1700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 90px;
+  padding: 20px;
+}
+.feed ul li {
+  position: relative;
+}
+.feed ul li a img {
+  flex-grow: 1;
+  padding: 3px 0;
+  width: 330px;
+  height: 330px;
+}
+.feed ul li .ho {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.225);
+  opacity: 0;
+}
+.feed ul li:hover .ho {
+  opacity: 1;
+}
+
+.a-artist {
+  margin: 0 100px;
+}
+.a-artist h4 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.a-artist p {
+  opacity: 0.4;
+}
+.a-artist img {
+  margin-top: 7px;
+  width: 14px;
+}
+
+.a-btn1 {
+  margin: 70px 100px;
+  padding: 20px 20px;
+  width: 260px;
+  border: 1px solid black;
+}
+.a-btn1 p {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.a-btn1 p a i {
+  padding-right: 10px;
+}
+
+.a-btn1:hover {
+  transition: 1s;
+  background-color: #fde700;
+}
+
+.artist ul {
+  width: 1740px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 90px;
+}
+.artist ul li a img {
+  width: 406px;
+  height: 406px;
+  padding: 0 10px;
+}
+.artist ul li p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  position: relative;
+  bottom: 50%;
+  opacity: 0;
+}
+.artist ul p:hover {
+  opacity: 1;
+}
+
+/* ==========================================footer============================ */
+.foot {
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 90px 0px;
+}
+
+.logo2 a img {
+  width: 200px;
+  height: 33px;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-right: 500px;
+}
+.add h6 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.add a {
+  text-decoration: none;
+}
+.add a i {
+  color: #bdbec0;
+}
+.add a span:hover {
+  color: rgba(54, 54, 54, 0.65);
+}
+
+.btn2 {
+  margin: 30px 0;
+  padding: 20px 15px;
+  width: 260px;
+  border: 1px solid #bdbec0;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+}
+.btn2 p {
+  font-size: 14px;
+}
+.btn2 p a i {
+  padding-left: 90px;
+}
+
+.btn2:hover {
+  transition: 1s;
+  background-color: #fde700;
+}
+
+.back {
+  display: flex;
+  justify-content: end;
+}
+.back a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.back a b {
+  font-size: 17px;
+  text-decoration: none;
+  color: rgba(24, 23, 23, 0.65);
+}
+.back a b:hover {
+  color: black;
+}
+
+.last {
+  width: 100%;
+  height: 100px;
+  padding: 20px 80px;
+  background-color: #fafafa;
+}
+.last h6 {
+  font-size: 16px;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 30px;
+}/*# sourceMappingURL=index.css.map */
