@@ -49,12 +49,10 @@ header{
         }
     }
 }
-.icon:hover > a{
+.icon:hover > a > i:nth-of-type(2){
     color: gray;
 }
-.icon:hover a > img{
-    color: gray;
-}
+
 /* ===============================main========================================= */
 main{}
 .video{
@@ -66,10 +64,13 @@ main{}
     h4{
         font-size: 30px;
         margin-bottom: 16px;
-    }
     img{
         margin-top: 7px;
         width: 14px;
+        }
+    }
+    p{
+        opacity: 0.4;
     }
 }
 .a-btn{
@@ -127,10 +128,12 @@ main{}
 }
 .a-artist{
     margin: 0 100px;
-    
     h4{
         font-size: 32px;
         margin-bottom: 16px;
+    }
+    p{
+        opacity: 0.4;
     }
     img{
         margin-top: 7px;
