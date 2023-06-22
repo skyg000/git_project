@@ -60,8 +60,8 @@ header {
   color: gray;
 }
 
-.icon a img:hover {
-  background-color: gray;
+.icon a:nth-of-type(4) i {
+  font-weight: 900;
 }
 
 /* ===============================main========================================= */
@@ -89,10 +89,17 @@ header {
   width: 260px;
   border: 1px solid black;
 }
-.a-btn p {
+.a-btn a {
+  font-size: 16px;
+  display: block;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
   font-weight: bold;
 }
-.a-btn p a i {
+.a-btn a i {
   padding-left: 100px;
 }
 
@@ -129,6 +136,11 @@ header {
 .feed ul li {
   position: relative;
 }
+.feed ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 .feed ul li a img {
   flex-grow: 1;
   padding: 3px 0;
@@ -164,17 +176,22 @@ header {
 }
 
 .a-btn1 {
-  margin: 70px 100px;
-  padding: 20px 20px;
   width: 260px;
+  margin: 70px 100px;
+  padding: 0px;
   border: 1px solid black;
 }
-.a-btn1 p {
-  font-weight: bold;
+.a-btn1 a {
+  font-size: 16px;
+  display: block;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  color: black;
+  text-decoration: none;
 }
-.a-btn1 p a i {
+.a-btn1 a i {
   padding-right: 10px;
 }
 
@@ -183,6 +200,28 @@ header {
   background-color: #fde700;
 }
 
+/* .btn3{
+    .swiper-button-prev{
+    background-color: #fcfafa;
+    border: 1px solid black;
+    border-radius: 70%;
+    color: black;}
+    .swiper-button-prev::after{
+        content: 'aaa';
+        display: none;
+        font-size: 10px;
+    }
+    .swiper-button-next{
+        background-color: #fcfafa;
+        border: 1px solid black;
+        border-radius: 70%;
+        color: black;
+    }
+} */
+.artist {
+  width: 1900px;
+  overflow: hidden;
+}
 .artist ul {
   width: 1740px;
   display: flex;
@@ -190,25 +229,35 @@ header {
   flex-direction: row;
   margin-left: 90px;
 }
+.artist ul li {
+  width: 100%;
+  position: relative;
+}
 .artist ul li a img {
   width: 406px;
   height: 406px;
-  padding: 0 10px;
 }
 .artist ul li p {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
   font-size: 24px;
   color: #fff;
-  position: relative;
-  bottom: 50%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
   opacity: 0;
+  transition: 0.5s;
+  background: linear-gradient(0deg, rgb(253, 231, 0) 0%, rgba(253, 231, 0, 0) 100%) !important;
 }
 .artist ul li p span {
+  display: block;
   font-size: 16px;
 }
-.artist ul p:hover {
+.artist ul li:hover p {
   opacity: 1;
 }
 
@@ -240,28 +289,30 @@ header {
 }
 .add a {
   text-decoration: none;
-}
-.add a i {
   color: #bdbec0;
 }
-.add a span:hover {
-  color: rgba(54, 54, 54, 0.65);
+.add a b:hover {
+  color: rgba(195, 20, 20, 0.65);
 }
 
 .btn2 {
   margin: 30px 0;
-  padding: 20px 15px;
-  width: 260px;
   border: 1px solid #bdbec0;
   background-color: white;
-  display: flex;
-  justify-content: start;
+  width: 260px;
 }
-.btn2 p {
+.btn2 a {
   font-size: 14px;
+  display: block;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
 }
-.btn2 p a i {
-  padding-left: 90px;
+.btn2 a i {
+  padding-left: 100px;
+  color: black;
 }
 
 .btn2:hover {
