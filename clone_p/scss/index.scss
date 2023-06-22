@@ -54,8 +54,8 @@ header{
 .icon a:hover{
     color: gray;
 }
-.icon a img:hover{
-    background-color: gray;
+.icon a:nth-of-type(4) i{
+    font-weight: 900;
 }
 
 /* ===============================main========================================= */
@@ -83,15 +83,21 @@ main{}
     padding: 20px 20px;
     width: 260px;
     border: 1px solid black;
-    p{
+    a{
+        font-size: 16px;
+        display: block;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        color: black;
         font-weight: bold;
-        a{
         i{
             padding-left: 100px;
         }
         }
     }
-}
+
 .a-btn:hover{
     transition: 1s ;
     background-color: #fde700;
@@ -119,10 +125,16 @@ main{}
         flex-wrap: wrap;
         margin-left: 90px;
         padding: 20px;
+        
         li{ 
             position: relative;
             a{
+                width: 100%;
+                height: 100%;
+                display: block;
+                
                 img{
+                    
                     flex-grow: 1;
                     padding: 3px 0; 
                     width: 330px; height: 330px;
@@ -157,18 +169,22 @@ main{}
     }
 }
 .a-btn1{
-    margin: 70px 100px;
-    padding: 20px 20px;
     width: 260px;
+    margin: 70px 100px;
+    padding: 0px;
     border: 1px solid black;
-    p{
-        font-weight: bold;
+    
+    a{
+        font-size: 16px;
+        display: block;
+        padding: 20px;
         display: flex;
         justify-content: space-between;
-        a{
-            i{
-                padding-right: 10px;
-            }
+        align-items:center ;
+        color: black;
+        text-decoration: none;
+        i{
+            padding-right: 10px;
         }
     }
 }
@@ -176,7 +192,27 @@ main{}
     transition: 1s ;
     background-color: #fde700;
 }
+/* .btn3{
+    .swiper-button-prev{
+    background-color: #fcfafa;
+    border: 1px solid black;
+    border-radius: 70%;
+    color: black;}
+    .swiper-button-prev::after{
+        content: 'aaa';
+        display: none;
+        font-size: 10px;
+    }
+    .swiper-button-next{
+        background-color: #fcfafa;
+        border: 1px solid black;
+        border-radius: 70%;
+        color: black;
+    }
+} */
 .artist{
+    width: 1900px;
+    overflow: hidden;
     ul{
         width: 1740px;
         display: flex;
@@ -184,28 +220,35 @@ main{}
         flex-direction: row;
         margin-left: 90px;
         li{
+            width: 100%;
+            position: relative;
             a{
                 img{
                     width: 406px; height: 406px;
-                    padding: 0 10px; 
                 }
             }
-        p{  
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            font-size: 24px;
-            color: #fff;
-            position: relative;
-            bottom: 50%;
-            opacity: 0;
-            span{
+            p{  
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                font-size: 24px;
+                color: #fff;
+                position: absolute;
+                left: 0%; top: 0%;
+                opacity: 0;
+                transition: 0.5s;
+                background: linear-gradient(0deg, rgba(253,231,0,1) 0%, rgba(253,231,0,0) 100%) !important;
+            span{   
+                display: block;
                 font-size: 16px;
+                }
             }
         }
-        }
         li:hover p{ 
-            opacity: 1;
+            opacity: 1; 
         }
     }
 }
@@ -236,30 +279,34 @@ main{}
     }
     a{
         text-decoration: none;
-        i{color:#bdbec0}
-        span{}
+        color: #bdbec0;
+        i{}
     }
 }
-.add a span:hover{
-    color:rgba(54, 54, 54, 0.65)
+.add a b:hover{ 
+    color:rgba(195, 20, 20, 0.65)
 }
 .btn2{
     margin: 30px 0;
-    padding: 20px 15px;
-    width: 260px;
     border: 1px solid #bdbec0;
     background-color: white;
-    display: flex;
-    justify-content: start;
-    p{
+    width: 260px;
+    
+    a{
         font-size: 14px;
-        a{
+        display: block;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        color: black;
             i{
-                padding-left: 90px;
+                padding-left: 100px;
+                color: black;
             }
         }
     }
-}
+
 .btn2:hover{
     transition: 1s ;
     background-color: #fde700;
