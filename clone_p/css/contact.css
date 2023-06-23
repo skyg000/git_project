@@ -1,1 +1,9 @@
-/*# sourceMappingURL=contact.css.map */
+@import url("reset.css");
+.cont {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: absolute;
+  left: 0;
+  top: 20%;
+}/*# sourceMappingURL=contact.css.map */

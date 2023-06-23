@@ -1,6 +1,8 @@
-@import "rest.css";
+@import url("reset.css");
 header {
-  width: 100%;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
   position: sticky;
   top: 0;
   background-color: white;
@@ -8,7 +10,7 @@ header {
 }
 
 .head {
-  width: 1700px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   color: black;
@@ -17,7 +19,7 @@ header {
 }
 
 .logo {
-  padding: 40px 0;
+  padding: 35px 0;
 }
 .logo a img {
   width: 60px;
@@ -65,31 +67,28 @@ header {
 }
 
 /* ===============================main========================================= */
-.video {
-  margin: 0 100px;
+.m-1 {
+  padding-left: 100px;
+  padding-right: 100px;
 }
-.a-about {
-  margin: 0 100px;
-}
-.a-about h4 {
+.m-1 .a-about h4 {
   font-size: 30px;
   margin-bottom: 16px;
 }
-.a-about h4 img {
+.m-1 .a-about h4 img {
   margin-top: 7px;
   width: 14px;
 }
-.a-about p {
+.m-1 .a-about p {
   opacity: 0.4;
 }
-
-.a-btn {
+.m-1 .a-btn {
   margin: 70px 100px;
   padding: 20px 20px;
   width: 260px;
   border: 1px solid black;
 }
-.a-btn a {
+.m-1 .a-btn a {
   font-size: 16px;
   display: block;
   text-decoration: none;
@@ -99,7 +98,7 @@ header {
   color: black;
   font-weight: bold;
 }
-.a-btn a i {
+.m-1 .a-btn a i {
   padding-left: 100px;
 }
 
@@ -108,14 +107,15 @@ header {
   background-color: #fde700;
 }
 
+/* ====================================feed=============================== */
 .feed {
-  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
   height: 100vh;
   background-color: #fafafa;
   margin: 100px auto;
 }
 .feed h4 {
-  margin: 0 110px;
   padding: 100px 0 50px;
   font-size: 32px;
 }
@@ -124,14 +124,9 @@ header {
   width: 14px;
 }
 .feed ul {
-  width: 1700px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin-left: 90px;
-  padding: 20px;
 }
 .feed ul li {
   position: relative;
@@ -143,7 +138,7 @@ header {
 }
 .feed ul li a img {
   flex-grow: 1;
-  padding: 3px 0;
+  margin: 2px;
   width: 330px;
   height: 330px;
 }
@@ -160,28 +155,47 @@ header {
   opacity: 1;
 }
 
-.a-artist {
-  margin: 0 100px;
+/* =================================m-2==================================== */
+.m-2 {
+  padding-left: 100px;
+  padding-right: 100px;
+  /* .btn3{
+      .swiper-button-prev{
+      background-color: #fcfafa;
+      border: 1px solid black;
+      border-radius: 70%;
+      color: black;}
+      .swiper-button-prev::after{
+          content: 'aaa';
+          display: none;
+          font-size: 10px;
+      }
+      .swiper-button-next{
+          background-color: #fcfafa;
+          border: 1px solid black;
+          border-radius: 70%;
+          color: black;
+      }
+  } */
 }
-.a-artist h4 {
+.m-2 .a-artist h4 {
   font-size: 32px;
   margin-bottom: 16px;
 }
-.a-artist p {
+.m-2 .a-artist p {
   opacity: 0.4;
 }
-.a-artist img {
+.m-2 .a-artist img {
   margin-top: 7px;
   width: 14px;
 }
-
-.a-btn1 {
+.m-2 .a-btn1 {
   width: 260px;
   margin: 70px 100px;
   padding: 0px;
   border: 1px solid black;
 }
-.a-btn1 a {
+.m-2 .a-btn1 a {
   font-size: 16px;
   display: block;
   padding: 20px;
@@ -191,53 +205,32 @@ header {
   color: black;
   text-decoration: none;
 }
-.a-btn1 a i {
+.m-2 .a-btn1 a i {
   padding-right: 10px;
 }
-
-.a-btn1:hover {
+.m-2 .a-btn1:hover {
   transition: 1s;
   background-color: #fde700;
 }
-
-/* .btn3{
-    .swiper-button-prev{
-    background-color: #fcfafa;
-    border: 1px solid black;
-    border-radius: 70%;
-    color: black;}
-    .swiper-button-prev::after{
-        content: 'aaa';
-        display: none;
-        font-size: 10px;
-    }
-    .swiper-button-next{
-        background-color: #fcfafa;
-        border: 1px solid black;
-        border-radius: 70%;
-        color: black;
-    }
-} */
-.artist {
-  width: 1900px;
+.m-2 .artist {
+  width: 100%;
   overflow: hidden;
 }
-.artist ul {
+.m-2 .artist ul {
   width: 1740px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-left: 90px;
 }
-.artist ul li {
+.m-2 .artist ul li {
   width: 100%;
   position: relative;
 }
-.artist ul li a img {
+.m-2 .artist ul li a img {
   width: 406px;
   height: 406px;
 }
-.artist ul li p {
+.m-2 .artist ul li p {
   width: 100%;
   height: 100%;
   display: flex;
@@ -253,16 +246,18 @@ header {
   transition: 0.5s;
   background: linear-gradient(0deg, rgb(253, 231, 0) 0%, rgba(253, 231, 0, 0) 100%) !important;
 }
-.artist ul li p span {
+.m-2 .artist ul li p span {
   display: block;
   font-size: 16px;
 }
-.artist ul li:hover p {
+.m-2 .artist ul li:hover p {
   opacity: 1;
 }
 
 /* ==========================================footer============================ */
 .foot {
+  padding-left: 100px;
+  padding-right: 100px;
   width: 100%;
   height: 100%;
   background-color: #fafafa;
@@ -292,7 +287,7 @@ header {
   color: #bdbec0;
 }
 .add a b:hover {
-  color: rgba(195, 20, 20, 0.65);
+  color: rgba(75, 74, 74, 0.65);
 }
 
 .btn2 {

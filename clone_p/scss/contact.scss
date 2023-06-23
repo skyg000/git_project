@@ -1,0 +1,19 @@
+@import url("reset.css");
+@mixin pa{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.cont{
+    width: 100%;
+    
+    @include pa();
+    position: absolute;
+    left: 0; top:20%;
+    text{
+        
+        h4{
+            img{}
+        }
+        p{}
+    }
+}
