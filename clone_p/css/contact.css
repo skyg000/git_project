@@ -3,7 +3,56 @@
   width: 100%;
   padding-left: 100px;
   padding-right: 100px;
-  position: absolute;
-  left: 0;
-  top: 20%;
+  margin: 50px auto;
+}
+.cont text h4 {
+  font-size: 32px;
+}
+.cont text p {
+  font-size: 16px;
+}
+
+.m-add {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 50px auto;
+}
+.m-add h6 {
+  font-size: 16px;
+}
+.m-add a {
+  text-decoration: none;
+  color: #bdbec0;
+}
+.m-add a b:hover {
+  color: rgba(75, 74, 74, 0.65);
+}
+
+.m-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #bdbec0;
+  background-color: white;
+  width: 260px;
+  display: flex;
+  position: relative;
+  display: inline-block;
+}
+.m-btn .m-btn a {
+  font-size: 14px;
+  display: block;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.m-btn .m-btn a i {
+  padding-left: 100px;
+  color: black;
+}
+.m-btn .m-btn:hover {
+  transition: 1s;
+  background-color: #fde700;
 }/*# sourceMappingURL=contact.css.map */

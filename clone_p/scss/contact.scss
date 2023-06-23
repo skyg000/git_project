@@ -5,15 +5,65 @@
 }
 .cont{
     width: 100%;
-    
     @include pa();
-    position: absolute;
-    left: 0; top:20%;
+    margin: 50px auto;
     text{
         
         h4{
+            font-size: 32px;
             img{}
         }
-        p{}
+        p{
+            font-size: 16px;
+        }
     }
+}
+.m-add{   
+    width: 100%;
+    @include pa();
+    margin: 50px auto;
+    h6{
+        font-size: 16px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: #bdbec0;
+        b{
+        i{}
+        }
+    }
+}
+.m-add a b:hover{ 
+color:rgba(75, 74, 74, 0.65)
+}
+
+.m-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #bdbec0;
+    background-color: white;
+    width: 260px;
+    display:flex;
+    position: relative;
+    display: inline-block;
+.m-btn{
+    a{
+        font-size: 14px;
+        display: block;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        color: black;
+            i{
+                padding-left: 100px;
+                color: black;
+            }
+        }
+    }
+.m-btn:hover{
+    transition: 1s ;
+    background-color: #fde700;
+}
 }
