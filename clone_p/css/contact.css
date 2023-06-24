@@ -5,11 +5,18 @@
   padding-right: 100px;
   margin: 50px auto;
 }
-.cont text h4 {
+.cont .text h4 {
   font-size: 32px;
+  margin-bottom: 16px;
+  line-height: 1.2;
 }
-.cont text p {
+.cont .text h4 img {
+  width: 14px;
+}
+.cont .text p {
+  opacity: 0.4;
   font-size: 16px;
+  font-weight: 600;
 }
 
 .m-add {
@@ -20,6 +27,7 @@
 }
 .m-add h6 {
   font-size: 16px;
+  margin-bottom: 10px;
 }
 .m-add a {
   text-decoration: none;
@@ -29,30 +37,75 @@
   color: rgba(75, 74, 74, 0.65);
 }
 
-.m-btn {
-  padding-left: 20px;
-  padding-right: 20px;
+.follow {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+.follow .f-text {
+  margin-bottom: 30px;
+}
+.follow .f-text h6 {
+  font-size: 16px;
+}
+.follow .f-icon {
+  display: flex;
+  justify-content: flex-start;
+}
+.follow .f-icon a {
+  width: 42px;
+  height: 42px;
+  background-color: white;
+  border-radius: 30px;
+  margin-right: 8px;
+  border: 1px solid #e5e7eb;
+}
+.follow .f-icon a i {
+  color: #363636;
+  margin: 12px;
+}
+.follow .f-icon a:hover {
+  transition: 0.5s;
+  background-color: #fde700;
+}
+
+.mo-btn {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.mo-btn .m-btn {
   border: 1px solid #bdbec0;
   background-color: white;
-  width: 260px;
-  display: flex;
-  position: relative;
+  width: 200px;
   display: inline-block;
 }
-.m-btn .m-btn a {
+.mo-btn .m-btn a {
+  text-decoration: none;
   font-size: 14px;
-  display: block;
-  padding: 20px;
+  font-weight: bold;
+  padding: 18px;
+  color: black;
+  padding-right: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.mo-btn .m-btn a i {
   color: black;
 }
-.m-btn .m-btn a i {
-  padding-left: 100px;
-  color: black;
-}
-.m-btn .m-btn:hover {
+.mo-btn .m-btn:hover {
   transition: 1s;
   background-color: #fde700;
+}
+
+.map {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 80px;
+}
+.map a img {
+  width: 100%;
 }/*# sourceMappingURL=contact.css.map */

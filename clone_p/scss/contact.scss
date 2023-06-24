@@ -3,28 +3,34 @@
     padding-left: 100px;
     padding-right: 100px;
 }
+$wid:100%;
 .cont{
-    width: 100%;
+    width: $wid;
     @include pa();
     margin: 50px auto;
-    text{
-        
+    .text{
         h4{
             font-size: 32px;
-            img{}
+            margin-bottom: 16px;
+            line-height: 1.2;
+            img{
+                width: 14px;
+            }
         }
         p{
+            opacity: 0.4;
             font-size: 16px;
+            font-weight: 600;
         }
     }
 }
 .m-add{   
-    width: 100%;
+    width: $wid;
     @include pa();
     margin: 50px auto;
     h6{
         font-size: 16px;
-        
+        margin-bottom: 10px;
     }
     a{
         text-decoration: none;
@@ -38,32 +44,69 @@
 color:rgba(75, 74, 74, 0.65)
 }
 
-.m-btn{
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid #bdbec0;
-    background-color: white;
-    width: 260px;
-    display:flex;
-    position: relative;
-    display: inline-block;
-.m-btn{
-    a{
-        font-size: 14px;
-        display: block;
-        padding: 20px;
+.follow{
+    width: $wid;
+    @include pa();
+    position: absolute;
+    left: 50%; top:40%;
+    .f-text{
+        margin-bottom: 30px;
+        h6{
+            font-size: 16px
+        }
+    }
+    .f-icon{
         display: flex;
-        justify-content: space-between;
-        align-items:center ;
-        color: black;
+        justify-content: flex-start;
+        a{
+            width: 42px;
+            height: 42px;
+            background-color: white;
+            border-radius: 30px;
+            margin-right: 8px;
+            border: 1px solid #e5e7eb;
             i{
-                padding-left: 100px;
-                color: black;
+                color: #363636;
+                margin: 12px;
             }
         }
     }
-.m-btn:hover{
-    transition: 1s ;
-    background-color: #fde700;
+    .f-icon a:hover {
+        transition: 0.5s;
+        background-color: #fde700;
+    }
 }
+.mo-btn{
+    @include pa();
+    .m-btn{
+        border: 1px solid #bdbec0;
+        background-color: white;
+        width: 200px;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 18px;
+            color: black;
+            padding-right: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+                i{
+                    color: black;
+                }
+            }
+        }
+    .m-btn:hover{
+        transition: 1s ;
+        background-color: #fde700;
+    }
+}
+.map{
+    @include pa();
+    margin-top: 80px;
+    a{
+        img{width: $wid;}
+    }
 }

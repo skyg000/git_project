@@ -67,11 +67,9 @@ header{
 .m-1
 {@include pa();
 .video{
-    
     iframe{}
 }
 .a-about{
-    
     h4{
         font-size: 30px;
         margin-bottom: 16px;
@@ -85,7 +83,7 @@ header{
     }
 }
 .a-btn{
-    margin: 70px 100px;
+    margin: 70px 0px;
     padding: 20px 20px;
     width: 260px;
     border: 1px solid black;
@@ -170,7 +168,7 @@ header{
     }
     .a-btn1{
         width: 260px;
-        margin: 70px 100px;
+        margin: 70px 0px;
         padding: 0px;
         border: 1px solid black;
         a{
@@ -182,6 +180,7 @@ header{
             align-items:center ;
             color: black;
             text-decoration: none;
+            font-weight: bold;
             i{
                 padding-right: 10px;
             }
