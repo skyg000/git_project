@@ -1,0 +1,98 @@
+@import url("reset.css");
+main {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.name {
+  margin-top: 100px;
+}
+.name h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.name h3 img {
+  width: 14px;
+}
+.name p {
+  font-size: 20px;
+  opacity: 0.4;
+  font-weight: bold;
+}
+
+.web {
+  margin: 40px 0px 70px;
+}
+.web ul {
+  display: flex;
+}
+.web ul li a p {
+  font-size: 16px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.t-img img {
+  width: 100%;
+}
+
+.t-text {
+  margin: 100px 400px;
+  text-align: left;
+}
+.t-text h5 {
+  font-size: 28px;
+  padding-bottom: 70px;
+}
+.t-text p {
+  padding-bottom: 20px;
+}
+
+.t-al {
+  border-top: 1px solid black;
+}
+.t-al h6 {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.t-al .al {
+  margin-bottom: 100px;
+}
+.t-al .al ul {
+  display: flex;
+  overflow: hidden;
+}
+.t-al .al ul li {
+  padding-right: 10px;
+}
+.t-al .al ul li a img {
+  border: 1px solid #e5e7eb;
+  width: 419px;
+  height: 419px;
+}
+.t-al .al ul li a p {
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.t-vid {
+  border-top: 1px solid black;
+}
+.t-vid h6 {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.t-vid .vid ul {
+  display: flex;
+  overflow: hidden;
+}
+.t-vid .vid ul li {
+  padding-right: 10px;
+}
+.t-vid .vid ul li a img {
+  width: 419px;
+  height: 419px;
+}/*# sourceMappingURL=toy.css.map */

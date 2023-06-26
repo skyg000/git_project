@@ -4,11 +4,13 @@
     font-family: 'Oswald', sans-serif;
     /* font-weight: 600; */
 }
-body, p, h6,h5,h4,figure {
+body, p, a, h6,h5,h4, h3,figure {
     margin: 0;
     text-decoration: none;
 }
-
+a{
+    color: black;
+}
 html, body {
 margin: 0;
 }
