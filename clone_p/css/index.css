@@ -374,6 +374,10 @@ header {
   color: black;
 }
 
+.back1 {
+  display: none;
+}
+
 .last {
   width: 100%;
   height: 100px;
@@ -405,7 +409,7 @@ header {
   .bar {
     display: flex;
     font-size: 24px;
-    padding-top: 8px;
+    padding-top: 10px;
     z-index: 1;
   }
   .menu {
@@ -627,16 +631,26 @@ header {
     display: none;
   }
   .back {
+    display: none;
+  }
+  .back1 {
     width: 200px;
     position: absolute;
     right: 20px;
+    display: block;
   }
-  .back a b {
+  .back1 a b {
     display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
     font-size: 14px;
+    color: #e5e7eb;
   }
-  .back a b i {
+  .back1 a b:hover {
+    color: black;
+    transition: 0.5s;
+  }
+  .back1 a b i {
     padding-left: 10px;
   }
   .last {
@@ -885,16 +899,26 @@ header {
     display: none;
   }
   .back {
+    display: none;
+  }
+  .back1 {
     width: 200px;
     position: absolute;
     right: 20px;
+    display: block;
   }
-  .back a b {
+  .back1 a b {
     display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
     font-size: 14px;
+    color: #e5e7eb;
   }
-  .back a b i {
+  .back1 a b:hover {
+    color: black;
+    transition: 0.5s;
+  }
+  .back1 a b i {
     padding-left: 10px;
   }
   .last {
