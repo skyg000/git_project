@@ -677,7 +677,7 @@ header {
   .bar {
     display: flex;
     font-size: 24px;
-    padding-top: 12px;
+    padding-top: 18px;
     z-index: 1;
   }
   .menu {
