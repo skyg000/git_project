@@ -4,6 +4,13 @@
     padding-right: 100px;
 }
 main{@include pa();}
+
+.bar{
+    display: none;
+}
+.pop{
+    display: none;
+}
 .name{
     margin-top: 100px;
     h3{
@@ -357,3 +364,7 @@ main{@include pa();}
 .backli a:hover{
     color: black;
 }
+.back1{
+    display: none;
+}
+@import "../scss/_m-toy"; 
