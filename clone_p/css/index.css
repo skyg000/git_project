@@ -6,7 +6,7 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
-  z-index: 1;
+  z-index: 3;
 }
 
 .head {
@@ -78,6 +78,15 @@ header {
   padding-left: 100px;
   padding-right: 100px;
 }
+.m-1 .video {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+.m-1 .video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 .m-1 .a-about h4 {
   font-size: 30px;
   margin-bottom: 16px;
@@ -133,7 +142,7 @@ header {
 }
 .feed ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .feed ul li {
@@ -318,7 +327,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  margin-right: 500px;
+  margin: 0 auto;
 }
 .add h6 {
   font-size: 16px;
@@ -390,6 +399,11 @@ header {
   padding-top: 30px;
 }
 
+@media (max-width: 1129px) {
+  .m-1 .a-about h4 br {
+    display: none;
+  }
+}
 @media (max-width: 992px) and (min-width: 771px) {
   header {
     width: 100%;
@@ -508,6 +522,15 @@ header {
   .m-1 {
     padding: 0;
   }
+  .m-1 .video {
+    position: relative;
+    padding-bottom: 56.25%;
+  }
+  .m-1 .video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
   .m-1 .a-about {
     padding: 20px;
   }
@@ -523,9 +546,21 @@ header {
   .feed ul {
     display: flex;
     justify-content: flex-start;
+    height: 1000px;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .feed ul li {
+    position: relative;
+    width: 33%;
+    overflow: hidden;
   }
   .feed ul li a img {
     max-width: 100%;
+    object-fit: cover;
+  }
+  .feed ul li a .ho {
+    width: 100%;
   }
   .m-2 {
     padding: 0;
@@ -598,7 +633,7 @@ header {
     color: white;
     border-radius: 50%;
     background-color: rgba(54, 54, 54, 0.5);
-    transform: translateX(-100%);
+    transform: translateX(0%);
   }
   .m-2 .btn .swiper-button-prev {
     width: 35px;
@@ -606,7 +641,7 @@ header {
     color: white;
     border-radius: 50%;
     background-color: rgba(54, 54, 54, 0.5);
-    transform: translateX(10%);
+    transform: translateX(-10%);
   }
   .m-2 .btn .swiper-button-next:after {
     font-size: 15px;
@@ -626,9 +661,15 @@ header {
   }
   .foot {
     padding-left: 20px;
+    flex-direction: column;
   }
-  .logo2 {
-    display: none;
+  .logo2 a img {
+    width: 150px;
+    height: auto;
+  }
+  .add {
+    padding-top: 10px;
+    margin: 0;
   }
   .back {
     display: none;
@@ -677,7 +718,7 @@ header {
   .bar {
     display: flex;
     font-size: 24px;
-    padding-top: 18px;
+    padding-top: 14px;
     z-index: 1;
   }
   .menu {
@@ -776,6 +817,15 @@ header {
   .m-1 {
     padding: 0;
   }
+  .m-1 .video {
+    position: relative;
+    padding-bottom: 56.25%;
+  }
+  .m-1 .video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
   .m-1 .a-about {
     padding: 20px;
   }
@@ -791,9 +841,17 @@ header {
   .feed ul {
     display: flex;
     justify-content: flex-start;
+    height: 1000px;
+    overflow: hidden;
+  }
+  .feed ul li {
+    position: relative;
+    width: 50%;
+    height: auto;
   }
   .feed ul li a img {
     max-width: 100%;
+    object-fit: cover;
   }
   .m-2 {
     padding: 0;
@@ -861,27 +919,27 @@ header {
     opacity: 1;
   }
   .m-2 .btn .swiper-button-next {
-    width: 35px;
-    height: 35px;
-    color: white;
-    border-radius: 50%;
-    background-color: rgba(54, 54, 54, 0.5);
-    transform: translateX(-100%);
-  }
-  .m-2 .btn .swiper-button-prev {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     color: white;
     border-radius: 50%;
     background-color: rgba(54, 54, 54, 0.5);
     transform: translateX(10%);
   }
+  .m-2 .btn .swiper-button-prev {
+    width: 25px;
+    height: 25px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(54, 54, 54, 0.5);
+    transform: translateX(-10%);
+  }
   .m-2 .btn .swiper-button-next:after {
-    font-size: 15px;
+    font-size: 10px;
     font-weight: bold;
   }
   .m-2 .btn .swiper-button-prev:after {
-    font-size: 15px;
+    font-size: 10px;
     font-weight: bold;
   }
   .m-2 .btn .swiper-button-next:hover {
@@ -894,9 +952,15 @@ header {
   }
   .foot {
     padding-left: 20px;
+    flex-direction: column;
   }
-  .logo2 {
-    display: none;
+  .logo2 a img {
+    width: 100px;
+    height: auto;
+  }
+  .add {
+    padding-top: 10px;
+    margin: 0;
   }
   .back {
     display: none;

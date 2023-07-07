@@ -3,7 +3,12 @@
     padding-left: 100px;
     padding-right: 100px;
 }
-
+.bar{
+    display: none;
+}
+.pop{
+    display: none;
+}
 /* ===========================main====================== */
 main{}
 .a_a-1{
@@ -35,8 +40,10 @@ main{}
     }
     .a-text2{  
         p{
+            margin: 20px auto;
             font-weight: 500;
             font-size: 16px;
         }
     }
 }
+@import "../scss/_m-about"; 

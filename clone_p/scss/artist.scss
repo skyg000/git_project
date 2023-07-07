@@ -5,6 +5,12 @@
 }
 $wid:100%;
 $hie:100;
+.bar{
+    display: none;
+}
+.pop{
+    display: none;
+}
 .a-text{
     @include pa();
     h4{
@@ -71,3 +77,7 @@ $hie:100;
         }
     }
 }
+.back1{
+    display: none;
+}
+@import "../scss/_m-artist"; 

@@ -12,7 +12,7 @@ header {
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 1;
+    z-index: 3;
 }
 
 .head {
@@ -89,8 +89,14 @@ header {
 .m-1 {
     @include pa();
 
-    .video {
-        iframe {}
+    .video{
+        position: relative;
+        padding-bottom: 56.25%;
+    iframe{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
     }
 
     .a-about {
@@ -157,7 +163,7 @@ header {
 
     ul {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-wrap: wrap;
 
         li {
@@ -247,10 +253,8 @@ header {
     .swiper {
         width: 100%;
         height: 100%;
-
         .swiper-wrapper {
             transition-timing-function: linear;
-
             .swiper-slide {
                 text-align: center;
                 font-size: 18px;
@@ -269,7 +273,6 @@ header {
                 -webkit-align-items: center;
                 align-items: center;
                 position: relative;
-                
                 a {
                     img {
                         display: block;
@@ -278,7 +281,6 @@ header {
                         height: auto;
                     }
                 }
-
                 p {
                     width: 100%;
                     height: 100%;
@@ -295,7 +297,6 @@ header {
                     opacity: 0;
                     transition: 0.5s;
                     background: linear-gradient(0deg, rgba(253, 231, 0, 1) 0%, rgba(253, 231, 0, 0) 100%) !important;
-
                     span {
                         display: block;
                         font-size: 16px;
@@ -369,7 +370,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin-right: 500px;
+    margin: 0 auto;
 
     h6 {
         font-size: 16px;

@@ -1,4 +1,6 @@
-
+@media (max-width : 1129px) {
+    .m-1 .a-about h4 br{display: none;}
+}
 
 @media (max-width: 992px) and (min-width: 771px){
     header{
@@ -124,6 +126,15 @@
     
     .m-1{
         padding: 0  ;
+        .video{
+            position: relative;
+            padding-bottom: 56.25%;
+        iframe{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        }
         .a-about{
             padding: 20px;
         }
@@ -139,10 +150,21 @@
         ul{
             display: flex;
             justify-content: flex-start;
+            height: 1000px;
+            flex-wrap: wrap;
+            overflow: hidden;
             li{
+                position: relative;
+                width: 33%;
+                overflow: hidden;
                 a{
                     img{
-                        max-width: 100%;}
+                        max-width: 100%;
+                        object-fit: cover;
+                    }
+                    .ho {
+                        width: 100%;
+                    }
                 }
             }
         }
@@ -223,7 +245,7 @@
             color: white;
             border-radius: 50%;
             background-color: rgba(54, 54, 54, 0.5);
-            transform:translateX(-100%);
+            transform:translateX(0%);
         }
         .swiper-button-prev {
             width: 35px;
@@ -231,7 +253,7 @@
             color: white;
             border-radius: 50%;
             background-color: rgba(54, 54, 54, 0.5);
-            transform:translateX(10%);
+            transform:translateX(-10%);
         }
         .swiper-button-next:after{
             font-size: 15px;
@@ -255,9 +277,19 @@
 
         .foot{
             padding-left: 20px ;
+            flex-direction: column;
         }
-        .logo2{
-            display: none;
+        .logo2 {
+            a {
+                img {
+                    width: 150px;
+                    height: auto;
+                }
+            }
+        }
+        .add{
+            padding-top: 10px;
+            margin: 0;
         }
         .back{
             display: none;
@@ -268,7 +300,6 @@
             right: 20px;
             display: block;
             a{
-               
                 b{
                     display: flex;
                     align-items: flex-end;
@@ -311,7 +342,7 @@
     .bar{
         display: flex;
         font-size: 24px;
-        padding-top: 18px;
+        padding-top: 14px;
         z-index: 1;
         
     }
@@ -415,7 +446,16 @@
     }
     
     .m-1{
-        padding: 0  ;
+        padding: 0 ;
+        .video{
+            position: relative;
+            padding-bottom: 56.25%;
+        iframe{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        }
         .a-about{
             padding: 20px;
         }
@@ -431,10 +471,17 @@
         ul{
             display: flex;
             justify-content: flex-start;
+            height: 1000px;
+            overflow: hidden;
             li{
+                position: relative;
+                width: 50%;
+                height: auto;
                 a{
                     img{
-                        max-width: 100%;}
+                        max-width: 100%;
+                        object-fit: cover;
+                    }
                 }
             }
         }
@@ -510,28 +557,28 @@
     }
     .btn{
         .swiper-button-next{
-            width: 35px;
-            height: 35px;
-            color: white;
-            border-radius: 50%;
-            background-color: rgba(54, 54, 54, 0.5);
-            transform:translateX(-100%);
-        }
-        .swiper-button-prev {
-            width: 35px;
-            height: 35px;
+            width: 25px;
+            height: 25px;
             color: white;
             border-radius: 50%;
             background-color: rgba(54, 54, 54, 0.5);
             transform:translateX(10%);
         }
+        .swiper-button-prev {
+            width: 25px;
+            height: 25px;
+            color: white;
+            border-radius: 50%;
+            background-color: rgba(54, 54, 54, 0.5);
+            transform:translateX(-10%);
+        }
         .swiper-button-next:after{
-            font-size: 15px;
+            font-size: 10px;
             font-weight: bold;
             
         }
         .swiper-button-prev:after{
-            font-size: 15px;
+            font-size: 10px;
             font-weight: bold;
         }
         .swiper-button-next:hover{
@@ -547,9 +594,19 @@
 
         .foot{
             padding-left: 20px ;
+            flex-direction: column;
         }
-        .logo2{
-            display: none;
+        .logo2 {
+            a {
+                img {
+                    width: 100px;
+                    height: auto;
+                }
+            }
+        }
+        .add{
+            padding-top: 10px;
+            margin: 0;
         }
         .back{
             display: none;
