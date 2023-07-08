@@ -9,7 +9,7 @@ let swiper = new Swiper(".mySwiper", {
   centeredSlides: false,
   loop:true,
   autoplay: {
-    delay: 3000,
+    delay: 2000,
     disableOnInteraction: false,
   },
   
