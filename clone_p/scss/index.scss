@@ -163,7 +163,7 @@ header {
 
     ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-wrap: wrap;
 
         li {
@@ -171,14 +171,11 @@ header {
             
 
             a {
-                width: 100%;
-                height: 100%;
-                display: block;
-
+                display: flex;
                 img {
                     flex-grow: 1;
-                    margin: 2px;
-                    width: 330px;
+                    margin-bottom: 15px;
+                    width: 250px;
                     height: 330px;
                 }
             }

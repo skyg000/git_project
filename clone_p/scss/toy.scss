@@ -38,6 +38,7 @@ main{@include pa();}
                     font-size: 16px;
                     padding-right: 10px ;
                     font-weight: bold;
+                    color: black;
                 }
             }
         }
@@ -49,11 +50,11 @@ main{@include pa();}
     }
 }
 .t-text{
-    margin: 100px 400px;
+    margin: 30px 250px;
     text-align:left;
     h5{
         font-size: 28px;
-        padding-bottom: 70px;
+        padding-bottom: 50px;
     }
     p{
         padding-bottom: 20px;
@@ -95,13 +96,14 @@ main{@include pa();}
                         display: block;
                         object-fit: cover;
                         width: 406px;
-                        height: 406px;
+                        
                         border: 1px solid #e5e7eb;
                         
                     }
                     p{
                         padding-top: 5px;
                         font-size: 15px;
+                        color: black;
                     }
                 }
             }
@@ -115,7 +117,7 @@ main{@include pa();}
         color: white;
         border-radius: 50%;
         background-color: rgba(54, 54, 54, 0.5);
-        transform:translateX(-100%);
+        transform:translateX(0%);
     }
     .swiper-button-prev {
         width: 35px;
@@ -123,7 +125,7 @@ main{@include pa();}
         color: white;
         border-radius: 50%;
         background-color: rgba(54, 54, 54, 0.6);
-        transform:translateX(10%);
+        transform:translateX(0%);
     }
     .swiper-button-next:after{
         font-size: 15px;
@@ -315,14 +317,13 @@ main{@include pa();}
         
     }
     .btn1{
-        
         .swiper-button-next{
             width: 35px;
             height: 35px;
             color: white;
             border-radius: 50%;
             background-color: rgba(54, 54, 54, 0.5);
-            transform:translateX(-300%) translateY(400vh);
+            transform:translateX(-7rem) translateY(220rem);
             
         }
         .swiper-button-prev {
@@ -331,7 +332,7 @@ main{@include pa();}
             color: white;
             border-radius: 50%;
             background-color: rgba(54, 54, 54, 0.5);
-            transform:translateX(300%) translateY(400vh);
+            transform:translateX(7rem) translateY(220rem);
         }
         .swiper-button-next:after{
             font-size: 15px;

@@ -143,24 +143,23 @@
     .artists{
         padding: 0;
         height: 100%;
-        
         max-width: 100%;
         ul{
             padding-left: 20px;
             padding-right: 20px;
             display: flex;
-            justify-content: flex-start;
+            justify-content: space-around;
             flex-wrap: wrap;
-            
+            position: relative;
             li{
                 position: relative;
                 padding-bottom: 15px;
-                
-                
+                width: 40%;
                 a{
                     z-index: 10;
-                    
+                    display: flex;
                     img{
+                        flex-grow: 1;
                         max-width: 100%; 
                         height: auto;
                         object-fit: cover;
@@ -386,48 +385,31 @@
     }
     .artists{
         padding: 0;
+        max-width: 100%;
         ul{
             padding-left: 20px;
             padding-right: 20px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            position: relative;
             li{
                 position: relative;
+                width:40%;
                 padding-bottom: 15px;
-               
                 a{
                     z-index: 10;
-                    
+                    display: flex;
                     img{
-                        max-width: 100%; height: 406px;
+                        max-width: 100%;
+                        height: auto;
+                        flex-grow: 1;
                     }
                 p{  
-                    height: 406px;
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                    justify-content: center;
-                    font-size: 24px;
-                    font-weight: bold;
-                    color: #fff;
-                    position: absolute;
-                    left: 0%; top: 0%;
-                    opacity: 0;
-                    transition: 0.5s;
-                    background: linear-gradient(0deg, rgba(253,231,0,1) 0%, rgba(253,231,0,0) 100%) !important;
-                span{   
-                    display: block;
-                    font-size: 16px;
-                    }
+                    display: none;
                 }
             }
         }
-            li:hover p{ 
-                opacity: 1; 
-            }
-            li:nth-of-type(4n){
-                margin-right: 0px;
-            }
         }
     }
     /* ======================footer======================== */

@@ -142,21 +142,19 @@ header {
 }
 .feed ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .feed ul li {
   position: relative;
 }
 .feed ul li a {
-  width: 100%;
-  height: 100%;
-  display: block;
+  display: flex;
 }
 .feed ul li a img {
   flex-grow: 1;
-  margin: 2px;
-  width: 330px;
+  margin-bottom: 15px;
+  width: 250px;
   height: 330px;
 }
 .feed ul li .ho {
@@ -415,7 +413,6 @@ header {
     padding-right: 0;
   }
   .head {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -433,10 +430,10 @@ header {
     display: none;
   }
   .logo {
-    width: 100%;
     display: flex;
     position: absolute;
     top: 10px;
+    left: 50%;
     justify-content: center;
     align-items: center;
     padding: 0;

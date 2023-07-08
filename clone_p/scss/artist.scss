@@ -13,6 +13,9 @@ $hie:100;
 }
 .a-text{
     @include pa();
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     h4{
         font-size: 32px;
         margin: 40px 0px 16px;
@@ -35,17 +38,20 @@ $hie:100;
     ul{
         width: $wid;
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-around;
         flex-wrap: wrap;
+        position: relative;
         li{
             position: relative;
             padding-bottom: 15px;
-            margin-right: 19px;
             a{
                 z-index: 10;
-                
+                display: flex;
                 img{
-                    width: 406px; height: 406px;
+                    width: 406px; 
+                    height: auto;
+                    flex-grow: 1;
+                    margin-bottom: 15px;
                 }
             p{  
                 width: $wid;
