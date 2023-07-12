@@ -1,7 +1,12 @@
-const element = document.querySelector('.menu a');
-element.onclick = function() {
-  element.style = 'color:#fde700'
-};
+const element = document.querySelectorAll('.menu a');
+let pageNum = localStorage.pageNum;
+  element[pageNum].style.color = 'yellow'
+  element.forEach(function(m,k){
+    m.onclick = function(e){
+      localStorage.pageNum = k;
+    }
+  })
+
 
 let swiper = new Swiper(".mySwiper", {
   spaceBetween: 5,
