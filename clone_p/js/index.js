@@ -1,4 +1,4 @@
-const element = document.querySelectorAll('.menu a');
+/* const element = document.querySelectorAll('.menu a');
 let pageNum = localStorage.pageNum;
   element[pageNum].style.color = 'yellow'
   element.forEach(function(m,k){
@@ -6,7 +6,7 @@ let pageNum = localStorage.pageNum;
       localStorage.pageNum = k;
     }
   })
-
+ */
 
 let swiper = new Swiper(".mySwiper", {
   spaceBetween: 5,
