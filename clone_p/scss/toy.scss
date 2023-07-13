@@ -164,6 +164,9 @@ main{@include pa();}
                     img{
                         width: 420px; height: 420px;
                     }
+                    p{
+                        color: black;
+                    }
                 }
             }
         }
@@ -214,6 +217,7 @@ main{@include pa();}
                         width: 419px; height: 419px;}
                     h5{
                         font-weight: 400;
+                        color:black;
                     }
                     p{
                         padding-top: 5px;

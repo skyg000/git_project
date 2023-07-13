@@ -15,3 +15,12 @@ const mBar1 = document.querySelector('.bar'),
             mPopup1.style.display= "none"
             }
         }
+
+        const element = document.querySelectorAll('.menu a');
+        let pageNum = sessionStorage.pageNum;
+            if(pageNum)element[pageNum].style.color = '#fde700'
+            element.forEach(function(m,k){
+                m.onclick = function(e){
+                sessionStorage.pageNum = k;
+                }
+            })

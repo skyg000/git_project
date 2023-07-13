@@ -162,6 +162,9 @@ main {
   width: 420px;
   height: 420px;
 }
+.t-vid .vid ul li a p {
+  color: black;
+}
 .t-vid .v-popup {
   position: fixed;
   left: 0;
@@ -215,6 +218,7 @@ main {
 }
 .concert .concert1 ul li a h5 {
   font-weight: 400;
+  color: black;
 }
 .concert .concert1 ul li a p {
   padding-top: 5px;
