@@ -1,3 +1,6 @@
+
+
+
 const element = document.querySelectorAll('.menu a');
 let pageNum = sessionStorage.pageNum;
   if(pageNum)element[pageNum].style.color = '#fde700'
@@ -42,3 +45,5 @@ const mBar = document.querySelector('.bar'),
             mPopup.style.display= "none"
           }
         }
+
+   
