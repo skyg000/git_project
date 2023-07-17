@@ -1,3 +1,14 @@
+
+$('body').prepend('<header></header>');
+$('body').append('<footer></footer>');
+$("header").load('./inc.html .head ', function(){
+    menu();
+});
+
+$("footer").load('./inc.html .foot', function(){
+    aab();
+});
+
 function menu (){
     const element = document.querySelectorAll('.menu a');
     let pageNum = sessionStorage.pageNum;

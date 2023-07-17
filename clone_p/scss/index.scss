@@ -1,89 +1,12 @@
 @import url("reset.css");
 
+
 @mixin pa {
     padding-left: 100px;
     padding-right: 100px;
 }
 
 
-header {
-    margin: 0 auto;
-    @include pa();
-    position: sticky;
-    top: 0;
-    background-color: white;
-    z-index: 3;
-}
-
-.head {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    color: black;
-    justify-content: space-between;
-    align-items: center;
-    .pop{
-        display: none;
-    }
-}
-.bar{
-    display: none;
-}
-.logo {
-    padding: 35px 0;
-
-    a {
-        img {
-            width: 60px;
-            height: 60px;
-        }
-    }
-}
-
-.menu {
-    flex-grow: 1;
-    margin-left: 60px;
-    padding-right: 10px;
-    
-    a {
-        font-size: 15px;
-        font-weight: bold;
-        padding-right: 20px;
-        color: black;
-        text-decoration: none;
-    }
-}
-
-.menu a:hover {
-    color: #bdbec0;
-}
-
-.icon {
-    display: flex;
-    justify-content: end;
-    height: 30px;
-    
-    a {
-        color: black;
-        padding-right: 20px;
-
-        i {}
-
-        img {
-            margin-top: 4px;
-            width: 14px;
-            height: 15px;
-        }
-    }
-}
-
-.icon a:hover {
-    color: gray;
-}
-
-.icon a:nth-of-type(4) i {
-    font-weight: 900;
-}
 
 /* ===============================main========================================= */
 .m-1 {
@@ -450,3 +373,4 @@ header {
 
 
 @import "../scss/_m-index"; 
+@import url("common.css");

@@ -136,4 +136,9 @@ let txt = document.querySelectorAll('.swiper1 p');
             }
         });
 
-        
+        $(".back").on('click',function(){
+            scrollTo({"top":"0",behavior:"smooth"})
+        })
+        $(".back1").on('click',function(){
+            scrollTo({"top":"0",behavior:"smooth"})
+        })
