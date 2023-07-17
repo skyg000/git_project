@@ -62,13 +62,14 @@ main{@include pa();}
 }
 .t-al{
     border-top: 1px solid black;
+    height: 100%;
     h6{
         margin: 10px 0px;
         font-size: 16px;
         font-weight: bold;
     }
     .swiper{
-        margin-bottom:100px;
+        margin-bottom:50px;
         width: 100%;
         height: 100%;
         .swiper-wrapper{
@@ -95,10 +96,9 @@ main{@include pa();}
                     img{
                         display: block;
                         object-fit: cover;
-                        width: 406px;
-                        
+                        width: 100%;
+                        height: auto;
                         border: 1px solid #e5e7eb;
-                        
                     }
                     p{
                         padding-top: 5px;
@@ -117,7 +117,7 @@ main{@include pa();}
         color: white;
         border-radius: 50%;
         background-color: rgba(54, 54, 54, 0.5);
-        transform:translateX(0%);
+        transform:translateX(-20%);
     }
     .swiper-button-prev {
         width: 35px;
@@ -125,7 +125,7 @@ main{@include pa();}
         color: white;
         border-radius: 50%;
         background-color: rgba(54, 54, 54, 0.6);
-        transform:translateX(0%);
+        transform:translateX(-10%);
     }
     .swiper-button-next:after{
         font-size: 15px;
@@ -154,7 +154,7 @@ main{@include pa();}
         font-weight: bold;
     }
     .vid{
-        margin-bottom:100px;
+        margin-bottom:150px;
         ul{
             display: flex;
             overflow: hidden;
@@ -162,7 +162,7 @@ main{@include pa();}
                 padding-right: 10px;
                 a{
                     img{
-                        width: 420px; height: 420px;
+                        width: 100%; height: auto;
                     }
                     p{
                         color: black;
@@ -290,7 +290,7 @@ main{@include pa();}
                 a{
                     img{
                         border: 1px solid #e5e7eb;
-                        width: 419px; height: 550px;}
+                        width: 100%; height: auto;}
                     p{
                         padding-top: 5px;
                         font-size: 14px;
@@ -318,16 +318,16 @@ main{@include pa();}
                 color: white;
                 }
             }
-        
+        }
     }
-    .btn1{
+    .btn1{  
         .swiper-button-next{
             width: 35px;
             height: 35px;
             color: white;
             border-radius: 50%;
             background-color: rgba(54, 54, 54, 0.5);
-            transform:translateX(-7rem) translateY(220rem);
+            transform:translateY(550%) ;
             
         }
         .swiper-button-prev {
@@ -336,7 +336,7 @@ main{@include pa();}
             color: white;
             border-radius: 50%;
             background-color: rgba(54, 54, 54, 0.5);
-            transform:translateX(7rem) translateY(220rem);
+            transform:translateY(-80%) ;
         }
         .swiper-button-next:after{
             font-size: 15px;
@@ -357,7 +357,8 @@ main{@include pa();}
         transition: 1s;
         background-color: #fde700;
     }
-}
+   
+
 .backli{
     text-align: center;
     a{

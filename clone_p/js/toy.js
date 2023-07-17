@@ -61,31 +61,16 @@ let txt = document.querySelectorAll('.swiper1 p');
             conPop.style = 'display:none';
         }
         
-        const mBar = document.querySelector('.bar'),
-        mPopup = document.querySelector('.pop'),
-        mBar1 = document.querySelector('.bar1');
-            mBar.onclick = function(){
-            if (mPopup.style.display == "flex"){
-                mPopup.style.display= "none"
-            } else {
-                mPopup.style.display = "flex";
-                $(".fa-x").css("color","#fff") 
-                mBar1.style="position:absolute; right:30px; top:30px"
-                
-            }                
-            }
-            mBar1.onclick = function(){
-            if (mPopup.style.display == "flex"){
-                mPopup.style.display= "none"
-            }
-        }
-
         var swiper = new Swiper(".mySwiper", {
             spaceBetween: 4,
             slidesPerView: 4,
             autoHeight : true,
             centeredSlides: false,
             loop:true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+              },
             navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
@@ -101,7 +86,7 @@ let txt = document.querySelectorAll('.swiper1 p');
                     slidesPerView: 2,
                     spaceBetween: 10
                 },
-                991:{
+                1008:{
                     slidesPerView: 4,
                     spaceBetween: 10
                 }
@@ -114,31 +99,30 @@ let txt = document.querySelectorAll('.swiper1 p');
             autoHeight : true,
             centeredSlides: false,
             loop:true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+              },
             navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
             },
             breakpoints: {
-                // 화면의 넓이가 320px 이상일 때
+                
                 320: {
                     slidesPerView: 2,
                     spaceBetween: 10
                 },
-                // 화면의 넓이가 640px 이상일 때
+                
                 640: {
                     slidesPerView: 2,
                     spaceBetween: 10
                 },
-                991:{
+                1008:{
                     slidesPerView: 4,
                     spaceBetween: 10
                 }
             }
         });
 
-        $(".back").on('click',function(){
-            scrollTo({"top":"0",behavior:"smooth"})
-        })
-        $(".back1").on('click',function(){
-            scrollTo({"top":"0",behavior:"smooth"})
-        })
+        
