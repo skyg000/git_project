@@ -26,6 +26,7 @@ header {
   }
   
   .logo {
+    max-width: 100%;
     padding: 35px 0;
   }
   .logo a img {
@@ -356,7 +357,7 @@ header {
     display: none;
   }
   .logo {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     position: absolute;
     top: 10px;

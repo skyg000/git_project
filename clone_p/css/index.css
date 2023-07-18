@@ -148,7 +148,7 @@
 }
 .m-2 .swiper .swiper-wrapper .swiper-slide {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   background: #fff;
   /* Center slide text vertically */
   /* display: -webkit-box;
@@ -178,7 +178,7 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #fff;
   position: absolute;
@@ -653,10 +653,11 @@
     display: none;
   }
   .logo {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     position: absolute;
     top: 10px;
+    left: 50%;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -838,7 +839,7 @@
   .m-2 .swiper .swiper-wrapper .swiper-slide a p span {
     max-width: 100%;
     display: block;
-    font-size: 16px;
+    font-size: 13px;
   }
   .m-2 .swiper .swiper-wrapper .swiper-slide:hover p {
     opacity: 1;
