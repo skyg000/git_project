@@ -1,9 +1,9 @@
-const t_Video = document.querySelectorAll('.t-vid li'),
+const t_Video = document.querySelectorAll('.t-vid .swiper-slide'),
         t_Popup = document.querySelector('.v-popup'),
-        aSrc=document.querySelectorAll('.t-vid li iframe'),
+        aSrc=document.querySelectorAll('.t-vid .swiper-slide iframe'),
         popupVido = document.querySelector('.v-popup iframe'),
         popupText = document.querySelector('.v-popup p' );
-let text = document.querySelectorAll('.vid p');
+let text = document.querySelectorAll('.swiper2 p');
         t_Video.forEach(function(v,k){
             v.onclick = function(){
                 let aSrc1 = aSrc[k].src;
@@ -16,30 +16,7 @@ let text = document.querySelectorAll('.vid p');
         t_Popup.onclick = function(){
             t_Popup.style = 'display:none';
         }
-/* ========================================================================= */
-const conCert = document.querySelectorAll('.concert li'),
-        c_Pop = document.querySelector('.c-popup'),
-        imgSrc = document.querySelectorAll('.concert li img'),
-        popImg = document.querySelector('.c-popup img'),
-        popText = document.querySelector('.c-popup p'),
-        popText1 = document.querySelector('.c-popup h5');
-let text2 = document.querySelectorAll('.concert1 p'),
-    text4 = document.querySelectorAll('.concert1 h5');
 
-        conCert.forEach(function(el,k){
-            el.onclick = function(){
-                let imgSrc1=imgSrc[k].src;
-                popImg.src = imgSrc1;
-                let text5 = text4[k].innerText;
-                popText1.innerText = text5;
-                let text3 = text2[k].innerText;
-                popText.innerText = text3;
-                c_Pop.style='display:flex';
-            } 
-        })
-        c_Pop.onclick = function(){
-            c_Pop.style = 'display:none';            
-        }
 /* ======================================================================== */
 const conTent = document.querySelectorAll('.content .swiper-slide'),
         conPop = document.querySelector('.con-popup'),
@@ -67,6 +44,38 @@ let txt = document.querySelectorAll('.swiper1 p');
             autoHeight : true,
             centeredSlides: false,
             loop:true,
+           /*  autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            }, */
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                // 화면의 넓이가 320px 이상일 때
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                // 화면의 넓이가 640px 이상일 때
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                1008:{
+                    slidesPerView: 4,
+                    spaceBetween: 10
+                }
+            }
+        });
+
+        var swiper2 = new Swiper(".mySwiper2", {
+            spaceBetween: 4,
+            slidesPerView: 4,
+            autoHeight : true,
+            centeredSlides: false,
+            loop:false,
             /* autoplay: {
                 delay: 2000,
                 disableOnInteraction: false,
@@ -99,10 +108,10 @@ let txt = document.querySelectorAll('.swiper1 p');
             autoHeight : true,
             centeredSlides: false,
             loop:true,
-            autoplay: {
+            /* autoplay: {
                 delay: 2000,
                 disableOnInteraction: false,
-              },
+              }, */
             navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",

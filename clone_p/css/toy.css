@@ -160,6 +160,7 @@ main {
 }
 .t-vid .vid ul li {
   padding-right: 10px;
+  position: relative;
 }
 .t-vid .vid ul li a img {
   width: 100%;
@@ -167,6 +168,14 @@ main {
 }
 .t-vid .vid ul li a p {
   color: black;
+}
+.t-vid .vid ul li figure {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.t-vid .vid ul li figure img {
+  width: 25px;
 }
 .t-vid .v-popup {
   position: fixed;

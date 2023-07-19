@@ -160,6 +160,7 @@ main{@include pa();}
             overflow: hidden;
             li{
                 padding-right: 10px;
+                position: relative;
                 a{
                     img{
                         width: 100%; height: auto;
@@ -168,6 +169,14 @@ main{@include pa();}
                         color: black;
                     }
                 }
+                figure{
+                    position: absolute;
+                    right: 20px;
+                    top: 15px;
+                    img{
+                        width: 25px;
+                    }
+                }   
             }
         }
     }

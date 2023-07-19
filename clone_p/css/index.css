@@ -534,7 +534,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
     position: absolute;
@@ -547,9 +547,10 @@
   .m-2 .swiper .swiper-wrapper .swiper-slide a p span {
     max-width: 100%;
     display: block;
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: bold;
   }
-  .m-2 .swiper .swiper-wrapper .swiper-slide:hover p {
+  .m-2 .swiper .swiper-wrapper .swiper-slide a:hover p {
     opacity: 1;
   }
   .m-2 .btn .swiper-button-next {
@@ -841,7 +842,7 @@
     display: block;
     font-size: 13px;
   }
-  .m-2 .swiper .swiper-wrapper .swiper-slide:hover p {
+  .m-2 .swiper .swiper-wrapper .swiper-slide a:hover p {
     opacity: 1;
   }
   .m-2 .btn .swiper-button-next {

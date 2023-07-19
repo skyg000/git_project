@@ -67,10 +67,10 @@ let txt = document.querySelectorAll('.swiper1 p');
             autoHeight : true,
             centeredSlides: false,
             loop:true,
-            autoplay: {
+            /* autoplay: {
                 delay: 2000,
                 disableOnInteraction: false,
-            },
+            }, */
             navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
@@ -99,10 +99,10 @@ let txt = document.querySelectorAll('.swiper1 p');
             autoHeight : true,
             centeredSlides: false,
             loop:true,
-            autoplay: {
+            /* autoplay: {
                 delay: 2000,
                 disableOnInteraction: false,
-              },
+              }, */
             navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
