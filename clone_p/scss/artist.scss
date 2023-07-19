@@ -44,19 +44,22 @@ $hie:100;
         li{
             position: relative;
             padding-bottom: 10px;
+            width: 23%;
             
             a{
                 z-index: 10;
-                display: flex;
+                
                 img{
-                    width: 406px; 
-                    height: auto;
+                    width: 100%; 
+                    height: 100%;
                     flex-grow: 1;
                     margin-bottom: 15px;
+                    
                 }
+            }
             p{  
                 width: $wid;
-                height: 406px;
+                height: 100%;
                 display: flex;
                 flex-direction: column;
                 text-align: center;
@@ -65,7 +68,7 @@ $hie:100;
                 font-weight: bold;
                 color: #fff;
                 position: absolute;
-                left: 0%; top: 0%;
+                left: 0%; bottom: 0%;
                 opacity: 0;
                 transition: 0.5s;
                 background: linear-gradient(0deg, rgba(253,231,0,1) 0%, rgba(253,231,0,0) 100%) !important;
@@ -74,7 +77,6 @@ $hie:100;
                 font-size: 16px;
                 }
             }
-        }
     }
         li:hover p{ 
             opacity: 1; 
