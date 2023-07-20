@@ -4,10 +4,10 @@ let swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
   centeredSlides: false,
   loop:true,
-  // autoplay: {
-  //   delay: 2000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+  delay: 2000,
+    disableOnInteraction: false,
+  },
   
   navigation: {
     nextEl: ".swiper-button-next",
