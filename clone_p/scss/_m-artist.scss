@@ -363,22 +363,22 @@
         padding: 0;
         max-width: 100%;
         ul{
-            padding-left: 20px;
-            padding-right: 20px;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             flex-wrap: wrap;
             position: relative;
+            margin: 0 auto;
             li{
                 position: relative;
                 width:40%;
-                padding-bottom: 15px;
+                margin: 0px 5px;
                 a{
-                    z-index: 10;
+                
                     display: flex;
                     img{
                         max-width: 100%;
                         height: auto;
+                        margin-bottom: 8px;
                         flex-grow: 1;
                     }
                 p{  

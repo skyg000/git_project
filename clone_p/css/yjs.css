@@ -722,10 +722,10 @@ main {
     display: none;
   }
   .logo {
-    width: 100%;
     display: flex;
     position: absolute;
     top: 10px;
+    left: 50%;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -826,6 +826,10 @@ main {
   main .web p {
     color: black;
   }
+  .t-img {
+    width: 100%;
+    margin: 0;
+  }
   .t-text {
     margin: 0;
     padding: 0px 20px;
@@ -844,8 +848,8 @@ main {
     display: none !important;
   }
   .t-text1 {
-    margin: 0;
-    padding: 0px 20px;
+    margin: 20px;
+    padding: 10px 0px;
   }
   .t-text1 h5 {
     font-size: 21px;
@@ -936,12 +940,15 @@ main {
     flex-direction: column;
   }
   .logo2 a img {
-    width: 150px;
+    width: 100px;
     height: auto;
   }
   .add {
     padding-top: 10px;
     margin: 0;
+  }
+  .add b {
+    font-size: 13px;
   }
   .back {
     display: none;

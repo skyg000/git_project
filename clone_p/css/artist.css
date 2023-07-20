@@ -82,9 +82,6 @@
 .artists ul li:hover p {
   opacity: 1;
 }
-.artists ul li:nth-of-type(4n) {
-  margin-right: 0px;
-}
 
 .back1 {
   display: none;
@@ -433,25 +430,24 @@
     max-width: 100%;
   }
   .artists ul {
-    padding-left: 20px;
-    padding-right: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     position: relative;
+    margin: 0 auto;
   }
   .artists ul li {
     position: relative;
     width: 40%;
-    padding-bottom: 15px;
+    margin: 0px 5px;
   }
   .artists ul li a {
-    z-index: 10;
     display: flex;
   }
   .artists ul li a img {
     max-width: 100%;
     height: auto;
+    margin-bottom: 8px;
     flex-grow: 1;
   }
   .artists ul li a p {

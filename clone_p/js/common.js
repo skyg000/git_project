@@ -1,11 +1,11 @@
 
 $('body').prepend('<header></header>');
 $('body').append('<footer></footer>');
-$("header").load('./inc.html .head ', function(){
+$("header").load('./inc.html .head', function(){
     menu();
 });
 
-$("footer").load('./inc.html .foot', function(){
+$("footer").load('./inc.html .foot,.last', function(){
     aab();
 });
 
