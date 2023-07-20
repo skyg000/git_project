@@ -193,9 +193,9 @@ main {
   font-size: 15px;
   background: #fff;
   /* Center slide text vertically */
-  /* display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -279,9 +279,9 @@ main {
   font-size: 18px;
   background: #fff;
   /* Center slide text vertically */
-  /* display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
