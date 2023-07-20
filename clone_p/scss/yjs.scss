@@ -102,9 +102,9 @@ main{@include pa();}
             font-size: 15px;
             background: #fff;
             /* Center slide text vertically */
-            /* display: -webkit-box;
-                display: -ms-flexbox;
-                display: -webkit-flex; */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex; 
             display: flex;
             -webkit-box-pack: center;
             -ms-flex-pack: center;
@@ -141,6 +141,11 @@ main{@include pa();}
         border-radius: 50%;
         background-color: rgba(54, 54, 54, 0.5);
         transform:translateX(-20%);
+        &::after{
+            font-size: 15px;
+            font-weight: bold;
+            
+        }
     }
     .swiper-button-prev {
         width: 35px;
@@ -149,17 +154,11 @@ main{@include pa();}
         border-radius: 50%;
         background-color: rgba(54, 54, 54, 0.6);
         transform:translateX(-10%);
+        &::after{
+            font-size: 15px;
+            font-weight: bold;
+        }
     }
-    .swiper-button-next:after{
-        font-size: 15px;
-        font-weight: bold;
-        
-    }
-    .swiper-button-prev:after{
-        font-size: 15px;
-        font-weight: bold;
-    }
-    
 }
 .swiper-button-next:hover{
     transition: 1s;
@@ -181,6 +180,7 @@ main{@include pa();}
     .swiper2{
         margin-bottom:50px;
         height: 100%;
+        position: relative;
         .swiper-wrapper{
             display: flex;
         .swiper-slide {
@@ -215,42 +215,77 @@ main{@include pa();}
                         color: black;
                     }
                 }
+                figure{
+                    position: absolute;
+                    right: 20px;
+                    top: 15px;
+                    img{
+                        width: 25px;
+                    }
+                }   
             }
-            figure{
-                position: absolute;
-                right: 20px;
-                top: 15px;
-                img{
-                    width: 25px;
+        }
+        .btn{
+            .swiper-button-next{
+                width: 35px;
+                height: 35px;
+                color: white;
+                border-radius: 50%;
+                background-color: rgba(54, 54, 54, 0.5);
+                transform:translateX(-20%);
+                &::after{
+                    font-size: 15px;
+                    font-weight: bold;
+                    
                 }
-            }   
+            }
+            .swiper-button-prev {
+                width: 35px;
+                height: 35px;
+                color: white;
+                border-radius: 50%;
+                background-color: rgba(54, 54, 54, 0.6);
+                transform:translateX(-10%);
+                &::after{
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+            }
         }
-    }
-}
-
-    .v-popup{
-        position: fixed;
-        left: 0; top: 0;
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(0, 0, 0,1);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        display: none;
-        z-index: 99;
-        iframe{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 1200px;
-            height: 700px;
+        .swiper-button-next:hover{
+            transition: 1s;
+            background-color: #fde700;
         }
-        p{
-            position: absolute;
-            left: 20px; bottom: 20px;
-            font-size: 20px;
-            color: white;
+        .swiper-button-prev:hover{
+            transition: 1s;
+            background-color: #fde700;
+        }   
+        
+            .v-popup{
+                position: fixed;
+                left: 0; top: 0;
+                width: 100%;
+                height: 100vh;
+                background-color: rgba(0, 0, 0,1);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: none;
+                z-index: 99;
+                iframe{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1200px;
+                    height: 700px;
+                }
+                p{
+                    position: absolute;
+                    left: 20px; bottom: 20px;
+                    font-size: 20px;
+                    color: white;
+                }
+            }
         }
     }
 
@@ -267,6 +302,7 @@ main{@include pa();}
         width: 100%;
         height: 100%;
         overflow: hidden;
+        position: relative;
         .swiper-wrapper{
             display: flex;
             transition-timing-function: linear;
@@ -302,6 +338,13 @@ main{@include pa();}
                 }
             }
         }
+        .btn {
+            .swiper-button-next, 
+            .swiper-button-prev{
+            transform: translate(-20%, -100%);
+            
+            }
+        }
         .con-popup{
                 position: fixed;
                 left: 0; top: 0;
@@ -323,47 +366,6 @@ main{@include pa();}
             }
         }
     }
-    .btn1{  
-        .swiper-button-next{
-            width: 35px;
-            height: 35px;
-            color: white;
-            border-radius: 50%;
-            background-color: rgba(54, 54, 54, 0.5);
-            top: auto;
-            right: 120px;
-            margin: -250px auto 0px
-        }
-        .swiper-button-prev {
-            width: 35px;
-            height: 35px;
-            color: white;
-            border-radius: 50%;
-            background-color: rgba(54, 54, 54, 0.5);
-            top: auto;
-            left: 110px;
-            margin: -250px auto 0px;
-        }
-        .swiper-button-next:after{
-            font-size: 15px;
-            font-weight: bold;
-            
-        }
-        .swiper-button-prev:after{
-            font-size: 15px;
-            font-weight: bold;
-        }
-        
-    }
-    .swiper-button-next:hover{
-        transition: 1s;
-        background-color: #fde700;
-    }
-    .swiper-button-prev:hover{
-        transition: 1s;
-        background-color: #fde700;
-    }
-   
 
 .backli{
     text-align: center;
