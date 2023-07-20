@@ -23,18 +23,17 @@ main{}
     }
     /* ============================text========================= */
     .all-text{
-        width: 100%;
+        max-width: 760px;
         position: relative;
-        left: 25%; top: 0;
+        left: 0; top: 0;
         padding-top: 100px;
         color: rgb(0, 0, 0);
-        padding-left: 20px;
-        padding-right: 20px;
+        margin: 0 auto;
     }
     .a-text{
-        
+            margin: 0 auto;
         h5{
-            padding-bottom: 35px;
+            padding-bottom: 25px;
             font-size: 28px;
         }
     }
