@@ -227,16 +227,15 @@
   }
   .artists ul {
     padding-left: 20px;
-    padding-right: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     position: relative;
   }
   .artists ul li {
     position: relative;
-    padding-bottom: 15px;
-    width: 40%;
+    margin: 0px 15px 0px 0px;
+    width: 48%;
   }
   .artists ul li a {
     z-index: 10;
@@ -438,7 +437,7 @@
   }
   .artists ul li {
     position: relative;
-    width: 40%;
+    width: 46%;
     margin: 0px 5px;
   }
   .artists ul li a {
