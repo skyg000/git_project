@@ -86,7 +86,7 @@ let txt = document.querySelectorAll('.swiper1 p');
                     slidesPerView: 2,
                     spaceBetween: 10
                 },
-                1008:{
+                992:{
                     slidesPerView: 4,
                     spaceBetween: 10
                 }
@@ -118,7 +118,7 @@ let txt = document.querySelectorAll('.swiper1 p');
                     slidesPerView: 2,
                     spaceBetween: 10
                 },
-                1008:{
+                992:{
                     slidesPerView: 4,
                     spaceBetween: 10
                 }

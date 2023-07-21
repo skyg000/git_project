@@ -236,7 +236,7 @@
             color: white;
             border-radius: 50%;
             background-color: rgba(54, 54, 54, 0.5);
-            transform:translateX(-100%);
+            transform:translateX(0%);
         }
         .swiper-button-prev {
             width: 35px;
@@ -244,7 +244,7 @@
             color: white;
             border-radius: 50%;
             background-color: rgba(54, 54, 54, 0.5);
-            transform:translateX(10%);
+            transform:translateX(-10%);
         }
         .swiper-button-next:after{
             font-size: 15px;

@@ -496,6 +496,10 @@
     }
     .a-btn1{
         margin: 20px !important ;
+        a{
+            padding: 15px;
+            font-size: 14px;
+        }
     }
     .swiper {
         max-width: 100%;
@@ -557,6 +561,7 @@
         }
     }
     .btn{
+        display: none;
         .swiper-button-next{
             width: 25px;
             height: 25px;
@@ -608,6 +613,17 @@
         .add{
             padding-top: 10px;
             margin: 0;
+        }
+        .btn2{
+            margin: 10px 0px;
+            a{
+                padding: 15px;
+                font-size: 13px;
+                font-weight: bold;
+                i{
+                    padding: 0;
+                }
+            }
         }
         .back{
             display: none;

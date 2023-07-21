@@ -513,6 +513,9 @@ main {
   main .web p {
     color: black;
   }
+  .t-img {
+    margin: 0;
+  }
   .t-text {
     margin: 0;
     padding: 0px 20px;

@@ -63,7 +63,7 @@ let txt = document.querySelectorAll('.swiper1 p');
                     slidesPerView: 2,
                     spaceBetween: 10
                 },
-                1008:{
+                992:{
                     slidesPerView: 4,
                     spaceBetween: 10
                 }
@@ -95,7 +95,7 @@ let txt = document.querySelectorAll('.swiper1 p');
                     slidesPerView: 2,
                     spaceBetween: 10
                 },
-                1008:{
+                992:{
                     slidesPerView: 4,
                     spaceBetween: 10
                 }
@@ -111,7 +111,7 @@ let txt = document.querySelectorAll('.swiper1 p');
             /* autoplay: {
                 delay: 2000,
                 disableOnInteraction: false,
-              }, */
+            }, */
             navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
@@ -127,7 +127,7 @@ let txt = document.querySelectorAll('.swiper1 p');
                     slidesPerView: 2,
                     spaceBetween: 10
                 },
-                1008:{
+                992:{
                     slidesPerView: 4,
                     spaceBetween: 10
                 }
