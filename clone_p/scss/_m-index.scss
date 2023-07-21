@@ -35,14 +35,14 @@
        
         display: flex;
         position: absolute;
-        top: 10px;
-        left: 50%;
+        top: 5px;
+        left: 45%;
         justify-content: center;
         align-items: center;
         padding: 0;
         a{
             img{
-                width: 40px;
+                width: 50px;
                 height: auto;
             }
         }
@@ -137,16 +137,36 @@
         }
         .a-about{
             padding: 20px;
+            h4{
+                font-size: 22px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: bold;
+            }
         }
         .a-btn{
             margin: 20px;
+            padding: 15px;
+            width: 200px;
+            a{
+                font-size: 13px;
+                font-weight: bold;
+                i{
+                    padding: 0;
+                }
+            }
         }
     }
     .feed{
-        padding: 0;
+        margin: 60px auto;
         height: auto;
         padding: 20px;
         max-width: 100%;
+        h4{
+            padding: 38px 10px;
+            font-size: 22px;
+        }
         ul{
             display: flex;
             justify-content: flex-start;
@@ -175,9 +195,21 @@
     
     .a-artist{
         padding: 20px;
+        h4{
+            font-size: 22px;
+        }
+        p{
+            font-size: 14px;
+        }
     }
     .a-btn1{
         margin: 20px !important ;
+        width: 200px;
+        a{
+            padding: 15px;
+            font-size: 14px;
+        }
+    }
     }
     .swiper {
         max-width: 100%;
@@ -275,7 +307,7 @@
             background-color: #fde700;
         }
     }
-}
+
 
         .foot{
             padding-left: 20px ;
@@ -284,7 +316,7 @@
         .logo2 {
             a {
                 img {
-                    width: 150px;
+                    width: 100px;
                     height: auto;
                 }
             }
@@ -292,6 +324,24 @@
         .add{
             padding-top: 10px;
             margin: 0;
+            h6{
+                font-size: 14px;
+            }
+            b{
+                font-size: 13px;
+            }
+        }
+        .btn2{
+            margin: 20px 0px !important ;
+            width: 200px;
+            a{
+                padding: 15px;
+                font-size: 14px;
+                font-weight: bold;
+                i{
+                    padding: 0;
+                }
+            }
         }
         .back{
             display: none;
@@ -320,8 +370,11 @@
         }
         .last{
             padding-left: 20px;
+            h6{
+                font-size: 14px;
+            }
         }
-}
+    }
 
 
 /* ================================mobile==================================== */
@@ -359,14 +412,14 @@
         max-width: 100%;
         display: flex;
         position: absolute;
-        top: 10px;
-        left: 50%;
+        top: 5px;
+        left: 45%;
         justify-content: center;
         align-items: center;
         padding: 0;
         a{
             img{
-                width: 40px;
+                width: 50px;
                 height: auto;
             }
         }
@@ -461,16 +514,36 @@
         }
         .a-about{
             padding: 20px;
+            h4{
+                font-size: 22px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: bold;
+            }
         }
         .a-btn{
             margin: 20px;
+            padding: 15px;
+            width: 200px;
+            a{
+                font-size: 13px;
+                font-weight: bold;
+                i{
+                    padding: 0;
+                }
+            }
         }
     }
     .feed{
-        padding: 0;
+        margin: 60px auto;
         height: auto;
         padding: 20px;
         max-width: 100%;
+        h4{
+            padding: 38px 10px;
+            font-size: 22px;
+        }
         ul{
             display: flex;
             justify-content: flex-start;
@@ -499,9 +572,16 @@
     
     .a-artist{
         padding: 20px;
+        h4{
+            font-size: 22px;
+        }
+        p{
+            font-size: 14px;
+        }
     }
     .a-btn1{
         margin: 20px !important ;
+        width: 200px;
         a{
             padding: 15px;
             font-size: 14px;
@@ -619,12 +699,14 @@
         .add{
             padding-top: 10px;
             margin: 0;
+            
         }
         .btn2{
-            margin: 10px 0px;
+            margin: 20px 0px !important ;
+            width: 200px;
             a{
                 padding: 15px;
-                font-size: 13px;
+                font-size: 14px;
                 font-weight: bold;
                 i{
                     padding: 0;

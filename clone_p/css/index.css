@@ -360,14 +360,14 @@
   .logo {
     display: flex;
     position: absolute;
-    top: 10px;
-    left: 50%;
+    top: 5px;
+    left: 45%;
     justify-content: center;
     align-items: center;
     padding: 0;
   }
   .logo a img {
-    width: 40px;
+    width: 50px;
     height: auto;
   }
   .pop {
@@ -459,14 +459,34 @@
   .m-1 .a-about {
     padding: 20px;
   }
+  .m-1 .a-about h4 {
+    font-size: 22px;
+  }
+  .m-1 .a-about p {
+    font-size: 14px;
+    font-weight: bold;
+  }
   .m-1 .a-btn {
     margin: 20px;
+    padding: 15px;
+    width: 200px;
+  }
+  .m-1 .a-btn a {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .m-1 .a-btn a i {
+    padding: 0;
   }
   .feed {
-    padding: 0;
+    margin: 60px auto;
     height: auto;
     padding: 20px;
     max-width: 100%;
+  }
+  .feed h4 {
+    padding: 38px 10px;
+    font-size: 22px;
   }
   .feed ul {
     display: flex;
@@ -494,17 +514,28 @@
   .m-2 .a-artist {
     padding: 20px;
   }
+  .m-2 .a-artist h4 {
+    font-size: 22px;
+  }
+  .m-2 .a-artist p {
+    font-size: 14px;
+  }
   .m-2 .a-btn1 {
     margin: 20px !important;
+    width: 200px;
   }
-  .m-2 .swiper {
+  .m-2 .a-btn1 a {
+    padding: 15px;
+    font-size: 14px;
+  }
+  .swiper {
     max-width: 100%;
     height: 100%;
   }
-  .m-2 .swiper .swiper-wrapper {
+  .swiper .swiper-wrapper {
     transition-timing-function: linear;
   }
-  .m-2 .swiper .swiper-wrapper .swiper-slide {
+  .swiper .swiper-wrapper .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -523,12 +554,12 @@
     align-items: center;
     position: relative;
   }
-  .m-2 .swiper .swiper-wrapper .swiper-slide a img {
+  .swiper .swiper-wrapper .swiper-slide a img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
   }
-  .m-2 .swiper .swiper-wrapper .swiper-slide a p {
+  .swiper .swiper-wrapper .swiper-slide a p {
     width: 100%;
     height: 100%;
     display: flex;
@@ -545,16 +576,16 @@
     transition: 0.5s;
     background: linear-gradient(0deg, rgb(253, 231, 0) 0%, rgba(253, 231, 0, 0) 100%) !important;
   }
-  .m-2 .swiper .swiper-wrapper .swiper-slide a p span {
+  .swiper .swiper-wrapper .swiper-slide a p span {
     max-width: 100%;
     display: block;
     font-size: 13px;
     font-weight: bold;
   }
-  .m-2 .swiper .swiper-wrapper .swiper-slide a:hover p {
+  .swiper .swiper-wrapper .swiper-slide a:hover p {
     opacity: 1;
   }
-  .m-2 .btn .swiper-button-next {
+  .btn .swiper-button-next {
     width: 35px;
     height: 35px;
     color: white;
@@ -562,7 +593,7 @@
     background-color: rgba(54, 54, 54, 0.5);
     transform: translateX(0%);
   }
-  .m-2 .btn .swiper-button-prev {
+  .btn .swiper-button-prev {
     width: 35px;
     height: 35px;
     color: white;
@@ -570,19 +601,19 @@
     background-color: rgba(54, 54, 54, 0.5);
     transform: translateX(-10%);
   }
-  .m-2 .btn .swiper-button-next:after {
+  .btn .swiper-button-next:after {
     font-size: 15px;
     font-weight: bold;
   }
-  .m-2 .btn .swiper-button-prev:after {
+  .btn .swiper-button-prev:after {
     font-size: 15px;
     font-weight: bold;
   }
-  .m-2 .btn .swiper-button-next:hover {
+  .btn .swiper-button-next:hover {
     transition: 1s;
     background-color: #fde700;
   }
-  .m-2 .btn .swiper-button-prev:hover {
+  .btn .swiper-button-prev:hover {
     transition: 1s;
     background-color: #fde700;
   }
@@ -591,12 +622,30 @@
     flex-direction: column;
   }
   .logo2 a img {
-    width: 150px;
+    width: 100px;
     height: auto;
   }
   .add {
     padding-top: 10px;
     margin: 0;
+  }
+  .add h6 {
+    font-size: 14px;
+  }
+  .add b {
+    font-size: 13px;
+  }
+  .btn2 {
+    margin: 20px 0px !important;
+    width: 200px;
+  }
+  .btn2 a {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .btn2 a i {
+    padding: 0;
   }
   .back {
     display: none;
@@ -623,6 +672,9 @@
   }
   .last {
     padding-left: 20px;
+  }
+  .last h6 {
+    font-size: 14px;
   }
 }
 /* ================================mobile==================================== */
@@ -658,14 +710,14 @@
     max-width: 100%;
     display: flex;
     position: absolute;
-    top: 10px;
-    left: 50%;
+    top: 5px;
+    left: 45%;
     justify-content: center;
     align-items: center;
     padding: 0;
   }
   .logo a img {
-    width: 40px;
+    width: 50px;
     height: auto;
   }
   .pop {
@@ -757,14 +809,34 @@
   .m-1 .a-about {
     padding: 20px;
   }
+  .m-1 .a-about h4 {
+    font-size: 22px;
+  }
+  .m-1 .a-about p {
+    font-size: 14px;
+    font-weight: bold;
+  }
   .m-1 .a-btn {
     margin: 20px;
+    padding: 15px;
+    width: 200px;
+  }
+  .m-1 .a-btn a {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .m-1 .a-btn a i {
+    padding: 0;
   }
   .feed {
-    padding: 0;
+    margin: 60px auto;
     height: auto;
     padding: 20px;
     max-width: 100%;
+  }
+  .feed h4 {
+    padding: 38px 10px;
+    font-size: 22px;
   }
   .feed ul {
     display: flex;
@@ -792,8 +864,15 @@
   .m-2 .a-artist {
     padding: 20px;
   }
+  .m-2 .a-artist h4 {
+    font-size: 22px;
+  }
+  .m-2 .a-artist p {
+    font-size: 14px;
+  }
   .m-2 .a-btn1 {
     margin: 20px !important;
+    width: 200px;
   }
   .m-2 .a-btn1 a {
     padding: 15px;
@@ -903,11 +982,12 @@
     margin: 0;
   }
   .btn2 {
-    margin: 10px 0px;
+    margin: 20px 0px !important;
+    width: 200px;
   }
   .btn2 a {
     padding: 15px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
   }
   .btn2 a i {
