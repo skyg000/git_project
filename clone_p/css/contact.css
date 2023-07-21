@@ -154,13 +154,14 @@
   .logo {
     display: flex;
     position: absolute;
-    top: 10px;
+    top: 5px;
+    left: 45%;
     justify-content: center;
     align-items: center;
     padding: 0;
   }
   .logo a img {
-    width: 40px;
+    width: 50px;
     height: auto;
   }
   .pop {
@@ -169,7 +170,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #363636;
     display: none;
     font-size: 24px;
     padding-top: 8px;
@@ -303,11 +304,7 @@
     align-items: flex-end;
     justify-content: flex-end;
     font-size: 14px;
-    color: #e5e7eb;
-  }
-  .back1 a b:hover {
     color: black;
-    transition: 0.5s;
   }
   .back1 a b i {
     padding-left: 10px;
@@ -345,16 +342,16 @@
     display: none;
   }
   .logo {
-    width: 100%;
     display: flex;
     position: absolute;
-    top: 10px;
+    top: 5px;
+    left: 45%;
     justify-content: center;
     align-items: center;
     padding: 0;
   }
   .logo a img {
-    width: 40px;
+    width: 50px;
     height: auto;
   }
   .pop {
@@ -363,7 +360,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #363636;
     display: none;
     font-size: 24px;
     padding-top: 8px;
@@ -502,11 +499,7 @@
     align-items: flex-end;
     justify-content: flex-end;
     font-size: 14px;
-    color: #e5e7eb;
-  }
-  .back1 a b:hover {
     color: black;
-    transition: 0.5s;
   }
   .back1 a b i {
     padding-left: 10px;
