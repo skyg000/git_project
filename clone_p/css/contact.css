@@ -267,11 +267,10 @@
     padding: 0px 15px;
   }
   .follow {
-    width: 800px;
     padding: 0;
     position: absolute;
     left: 15px;
-    top: 50%;
+    top: 55%;
   }
   .map {
     padding: 0;
