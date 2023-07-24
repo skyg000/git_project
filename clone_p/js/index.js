@@ -5,7 +5,7 @@ let swiper = new Swiper(".mySwiper", {
   centeredSlides: false,
   loop:true,
   autoplay: {
-  delay: 0,
+  delay:  0,
     disableOnInteraction: false,
   },
   speed:6000,
