@@ -4,11 +4,11 @@ let swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
   centeredSlides: false,
   loop:true,
+  speed:6000,
   autoplay: {
   delay:  0,
     disableOnInteraction: false,
   },
-  speed:6000,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
