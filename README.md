@@ -1,5 +1,5 @@
 ## Clone_project
-💛 클론사이트 <br>
+💛 클론사이트 :
 안테나 뮤직 <br>
-⚙ 개발환경 <br> 
+⚙ 개발환경 :
 HTML / SCSS / SCRIPT
